@@ -1,0 +1,195 @@
+{
+  "characters": [
+    {
+      "id": "pc-harlan",
+      "name": "Harlan",
+      "kind": "player_character",
+      "summary": "A hooded human rogue/ranger who keeps emotional distance from the group, acts selflessly in danger, and is most at home in stealth, theft, and ranged opportunism.",
+      "goals": [
+        "Find connection even though he does not know how to build it",
+        "Protect Nighteyes",
+        "Learn more about the Piebalds"
+      ],
+      "hooks": [
+        "His bond with Nighteyes is taboo beast magic",
+        "He grew up homeless and lacks family ties",
+        "He once had a father figure in the Vaelport thieves' guild",
+        "The Piebalds have the same power and may offer belonging"
+      ],
+      "tensions": [
+        "Distrusts everyone by default",
+        "Fears Jin learning the truth most",
+        "Steals because he loves stealing",
+        "Repeated danger to Nighteyes can force emotional honesty"
+      ],
+      "recent_changes": [
+        "None recorded yet"
+      ],
+      "continuity_notes": [
+        "Usually hooded",
+        "Least concerned about Dax learning the truth",
+        "Still socially outside the party"
+      ]
+    },
+    {
+      "id": "pc-dax",
+      "name": "Dax",
+      "kind": "player_character",
+      "summary": "An intense dragonblood fighter who hides visible horns and scales, prefers direct confrontation, and is driven by the search for his missing father.",
+      "goals": [
+        "Find his father",
+        "Avoid rejection for what he is",
+        "Grow into his dragon-linked destiny"
+      ],
+      "hooks": [
+        "Dragonbloods were once dragon keepers",
+        "He is destined to be a dragon rider",
+        "He bonded closely with Wyll from Zephiorion"
+      ],
+      "tensions": [
+        "People do not accept his dragonblood traits",
+        "Defaults to battle over negotiation",
+        "Would be destabilized by proof his father is dead or his mother lives"
+      ],
+      "recent_changes": [
+        "None recorded yet"
+      ],
+      "continuity_notes": [
+        "Closest PC relationship is Jin",
+        "Sees Jin more as an uncle than a father",
+        "Would embrace dragon-rider destiny if confirmed"
+      ]
+    },
+    {
+      "id": "pc-jin",
+      "name": "Jin",
+      "kind": "player_character",
+      "summary": "A quiet, meditative human monk who serves as the party's moral center, follows Soryan as a chosen champion, and carries unresolved rage from a past life of slavery.",
+      "goals": [
+        "Understand Soryan better",
+        "Protect and guide the younger party members",
+        "Eventually strike against slavery in the south"
+      ],
+      "hooks": [
+        "He has personally met Soryan",
+        "He is Soryan's champion",
+        "Slavery remains a major future conflict"
+      ],
+      "tensions": [
+        "Carries anger the party has not fully seen",
+        "Will react strongly to slavery, abuse, or abduction",
+        "Two key decisions about party priorities remain unresolved"
+      ],
+      "recent_changes": [
+        "None recorded yet"
+      ],
+      "continuity_notes": [
+        "Acts as a father figure to the group",
+        "Leads by quiet intervention",
+        "Open questions remain around conflict between justice and party goals"
+      ]
+    },
+    {
+      "id": "pc-marcel",
+      "name": "Marcel",
+      "kind": "player_character",
+      "summary": "An outgoing changeling bard who naturally takes center stage, wants belonging more than applause, and is tied to prophetic dreams, the mystery of the Catalyst, and a villainous maternal figure.",
+      "goals": [
+        "Understand the Catalyst",
+        "Find belonging",
+        "Understand his origin"
+      ],
+      "hooks": [
+        "The party itself is the Catalyst",
+        "He has prophetic dreams",
+        "His mother is the campaign's larger antagonist"
+      ],
+      "tensions": [
+        "Fears his charisma is all an act",
+        "Does not really understand his changeling identity",
+        "Public embarrassment can break his confidence"
+      ],
+      "recent_changes": [
+        "None recorded yet"
+      ],
+      "continuity_notes": [
+        "Closest to Dax",
+        "Understands Harlan the least",
+        "Would tell the party if he learned they were the Catalyst"
+      ]
+    }
+  ],
+  "secrets_and_clues": [
+    {
+      "id": "secret-harlan-beast-magic",
+      "text": "Harlan's bond with Nighteyes is taboo beast magic.",
+      "status": "unrevealed",
+      "related_to": [
+        "pc-harlan"
+      ],
+      "reuse_priority": "high"
+    },
+    {
+      "id": "secret-harlan-piebalds",
+      "text": "The Piebalds share Harlan's power and may become a source of belonging, danger, or instruction.",
+      "status": "unrevealed",
+      "related_to": [
+        "pc-harlan"
+      ],
+      "reuse_priority": "high"
+    },
+    {
+      "id": "secret-dax-dragon-rider",
+      "text": "Dax's dragonblood lineage connects to extinct dragon keepers, and he is destined to become a dragon rider.",
+      "status": "unrevealed",
+      "related_to": [
+        "pc-dax"
+      ],
+      "reuse_priority": "high"
+    },
+    {
+      "id": "secret-jin-soryan",
+      "text": "Jin has personally met Soryan and serves as Soryan's champion.",
+      "status": "partially_revealed",
+      "related_to": [
+        "pc-jin"
+      ],
+      "reuse_priority": "high"
+    },
+    {
+      "id": "secret-jin-anger",
+      "text": "Jin's calm hides unresolved anger tied to his history of slavery.",
+      "status": "unrevealed",
+      "related_to": [
+        "pc-jin"
+      ],
+      "reuse_priority": "medium"
+    },
+    {
+      "id": "secret-marcel-catalyst",
+      "text": "The party itself is the Catalyst Marcel wants to understand.",
+      "status": "unrevealed",
+      "related_to": [
+        "pc-marcel"
+      ],
+      "reuse_priority": "high"
+    },
+    {
+      "id": "secret-marcel-mother",
+      "text": "Marcel's mother is the major antagonist pulling the strings.",
+      "status": "unrevealed",
+      "related_to": [
+        "pc-marcel"
+      ],
+      "reuse_priority": "high"
+    }
+  ],
+  "previous_session_summary": null,
+  "campaign_state_notes": [
+    "Party emotional cohesion is still limited.",
+    "Jin functions as the stabilizing center.",
+    "Marcel naturally occupies the visible leadership role.",
+    "Harlan and Dax both carry stigmatized or hidden identities.",
+    "Several campaign arcs are built around hidden truths becoming public."
+  ]
+}

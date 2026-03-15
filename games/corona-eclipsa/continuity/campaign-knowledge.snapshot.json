@@ -1,0 +1,154 @@
+{
+  "campaign_premise": {
+    "genre": "epic fantasy adventure",
+    "tone": "grimdark political fantasy",
+    "stakes": "death is real and failure has lasting consequences",
+    "inspirations": {
+      "direct": [
+        "Elderlings",
+        "beast magic",
+        "Skill adapted as weave",
+        "overall plot shape from Realm of the Elderlings"
+      ],
+      "broader": [
+        "Critical Role actual plays"
+      ]
+    }
+  },
+  "regions": [
+    {
+      "name": "Everthrone",
+      "summary": "Main kingdom and current party home base."
+    },
+    {
+      "name": "Zephandor",
+      "summary": "Mountain kingdom associated with half-elves."
+    },
+    {
+      "name": "Vaelport",
+      "summary": "Southern trading city."
+    },
+    {
+      "name": "Vraegari",
+      "summary": "Northern half-orc kingdom."
+    },
+    {
+      "name": "Theaxios",
+      "summary": "Slave states of the south."
+    }
+  ],
+  "factions_and_powers": [
+    {
+      "name": "Vraegari",
+      "role": "Open military aggressor against Everthrone."
+    },
+    {
+      "name": "Zephandor",
+      "role": "Being framed for Vraegari's attacks."
+    },
+    {
+      "name": "Cerres",
+      "role": "Hidden power manipulating the conflict; an island ruled by a secret cult of prophets."
+    },
+    {
+      "name": "Everthrone",
+      "role": "Primary kingdom under threat and party home base."
+    },
+    {
+      "name": "The Corterie",
+      "role": "Rival adventuring group currently trapped with the party in a pocket dimension."
+    }
+  ],
+  "antagonists": {
+    "active": "Prince Rhaegar, second son of Everthrone",
+    "larger": "Cerres"
+  },
+  "antagonist_motivations": {
+    "rhaegar": [
+      "Become king",
+      "Willingly cooperate with destructive outside powers to gain power",
+      "Acts from narcissism and does not care about long-term consequences"
+    ],
+    "cerres": [
+      "Stop the Catalyst",
+      "Prevent the return of dragons",
+      "Avoid the total destruction they believe dragons would bring to Cerres"
+    ]
+  },
+  "dragon_status": "myth",
+  "setting_truths": [
+    "The weave is the source of magic in the world.",
+    "Elderlings are dragon-linked figures.",
+    "With dragons gone, elderlings are widely viewed as mutilated beasts.",
+    "In the Wild, babies born with elderling-like malformations are often left to die."
+  ],
+  "important_regions_and_institutions": [
+    {
+      "name": "The Wild",
+      "summary": "A southern region north of Vaelport and south of the mountains."
+    },
+    {
+      "name": "Head magician",
+      "summary": "The leader of the court magic establishment whose name is not currently pinned down and who secretly works for Rhaegar."
+    }
+  ],
+  "major_events": [
+    "Towns have become hollow, with people changing into almost zombie-like states.",
+    "The party has killed entire hollowed towns.",
+    "Prince Rhaegar unsuccessfully tried to frame the party for the death of the Zephandor prince.",
+    "The party convinced Prince Dorian to marry the Zephandor princess.",
+    "The party became trapped in a pocket dimension with the Corterie."
+  ],
+  "unresolved_threads": [
+    "The party needs a weapon to combat the hollowed.",
+    "The party needs to escape the pocket dimension.",
+    "The Corterie is searching for a gem that contains the essence of the sorcerer who created the pocket dimension."
+  ],
+  "current_situation": "The party is trapped in a pocket dimension with the Corterie and needs to find a way out.",
+  "public_understanding": {
+    "everthrone": "The public is deeply uncertain; rumors dominate understanding of the war, the hollowed, and royal politics."
+  },
+  "hollowed": {
+    "summary": "The hollowed are the campaign equivalent of the Forged from Realm of the Elderlings."
+  },
+  "everthrone_royalty": {
+    "ruler": "The king of Everthrone",
+    "status": "gravely ill",
+    "children": [
+      "Prince Rhaegar",
+      "Prince Dorian"
+    ],
+    "notes": "Rhaegar and Dorian have different mothers."
+  },
+  "party_political_position": {
+    "relationship_to_dorian": "trusted allies",
+    "relationship_to_kingdom": "The party has worked for Everthrone for most of the campaign."
+  },
+  "zephandor_marriage_context": {
+    "summary": "Dorian's marriage to the Zephandor princess mattered because Zephandor needed to prove it was not behind the attacks staged to implicate it."
+  },
+  "corterie": {
+    "summary": "A rival magician group favored by the head magician.",
+    "party_connection": "Marcel trained beside them but was never accepted.",
+    "current_goal": "Find the gem containing the trapped essence of the sorcerer who created the pocket dimension and release him."
+  },
+  "pocket_dimension": {
+    "origin": "Created by a powerful sorcerer.",
+    "hidden_truth": "A gem inside contains the sorcerer's essence."
+  },
+  "secret_knowledge": {
+    "cerres_behind_conflict": {
+      "known_by": [
+        "Prince Rhaegar"
+      ],
+      "unknown_to": [
+        "the party"
+      ]
+    }
+  },
+  "prophecy_pressure": {
+    "cerres_belief": "Stopping the Catalyst will stop the dragons.",
+    "catalyst_definition": "Prophetically vague; it could be a person, group, bloodline, event, or similar turning point.",
+    "dragon_return_consequence_for_cerres": "Cerres believes dragons would destroy them completely."
+  }
+}
