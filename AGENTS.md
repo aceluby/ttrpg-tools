@@ -37,6 +37,65 @@ Requirements:
 - never ask more than `20` clarifying questions
 - prioritize questions that materially improve session quality, pacing, continuity, and system fit
 - if the user leaves some questions unanswered, proceed with reasonable assumptions and state them briefly
+- do not draft, outline, or generate the session plan until after the GM has had a chance to answer the clarifying questions
+- treat the clarifying phase as a collaborative writers-room step where the GM can steer direction, constraints, reveals, pacing, and desired ending beats
+- during the clarifying phase, prefer gathering and organizing the GM's intent over filling gaps with speculative content
+- after the GM answers, synthesize those answers into explicit assumptions before writing the plan
+
+## Corona Eclipsa File Roles And UI Rules
+
+When working in `games/corona-eclipsa`, treat the markdown files as both campaign source material and app-facing content.
+
+### File roles
+
+- `GAME.md`
+  - game-wide defaults, system assumptions, durable planner rules, campaign overview, and table procedures
+- `continuity/`
+  - canonical truth that persists across sessions
+  - reusable NPC, faction, lore, and party files
+- `plans/`
+  - session-specific prep meant to run at the table
+  - should be optimized for skimability, scene flow, and immediate use
+  - also includes `session-arc-history.md`, which is session-facing historical context rather than continuity canon
+- `references/`
+  - supporting notes, character-specific material, and handout-style lore that may be helpful but are not always primary canon
+
+### UI-aware markdown rules
+
+- the first `#` heading becomes the document title in the web UI
+- markdown headings drive section navigation and sidebar trees
+- internal `.md` links with optional `#section` anchors should remain valid when possible
+- inline backticks are clickable lookup chips in the UI and should be reserved for useful search targets
+- good backtick targets include:
+  - NPC names
+  - factions
+  - locations
+  - organizations
+  - notable items
+  - named magical concepts
+  - gods
+  - ships
+  - unique creatures or threats
+- avoid backticks for:
+  - plain numbers
+  - DCs
+  - damage values
+  - durations
+  - action counts
+  - generic system terms
+  - long phrases used only for emphasis
+- when emphasis is needed for non-searchable text, prefer `**bold**`, headings, tables, or plain prose over backticks
+
+### Search and navigation expectations
+
+- changing a heading can change its anchor, so do not rename headings casually in active docs
+- use one consistent canonical name for the same person, place, faction, or item across files whenever practical
+- session plans should share names with continuity docs so search and inline lookups produce strong results
+- keep documents web-readable:
+  - prefer short bullets over dense walls of text
+  - use tables for compact reference data
+  - use horizontal rules sparingly
+  - keep read-aloud text short enough to scan aloud comfortably
 
 ## Expected Inputs
 
@@ -152,6 +211,42 @@ Based on Sly Flourish's public articles and template, the working section model 
   - A list of likely scenes, beats, forks, complications, or encounter opportunities
   - These are potential scenes, not a fixed script
   - They should support improvisation rather than force a sequence
+  - Session flow should generally move from scene to scene, with each scene giving the GM something active to play
+  - Each prepared scene must include at least one of the following:
+    - a meaningful player decision
+    - real potential for things to go wrong
+    - emotional impact
+    - important information delivery
+  - Strong scenes often include two or more of those elements
+  - Scene prep should include enough likely scenes, forks, and fallback beats to fill the target session length without requiring filler
+  - Each prepared scene should include a short read-aloud opener that helps the GM start the scene at the table
+  - Each prepared scene should also include a clear hook that invites the players to engage, choose, react, investigate, or act
+  - The read-aloud opener should establish the immediate fiction, tone, and pressure without being longer than the table needs
+  - The hook should make it obvious why the players should start interacting now rather than waiting for more exposition
+  - As a default pacing rule, prep roughly `3` scenes per hour of expected play
+  - Common scene types include:
+    - exploration
+    - conversation
+    - the party trying to reach consensus on a divisive choice
+    - solving a riddle or puzzle
+    - surviving a deadly trap
+    - a low-difficulty combat encounter
+  - A more difficult combat encounter can consume the space of roughly `2-6` scenes depending on complexity, terrain, enemy count, and table speed
+  - For action scenes, use `the round structure`:
+    - define what sets the stage for the action
+    - include `3-5` possible complications that can emerge as play continues
+  - Action scenes can include combat, chase, infiltration, stealth, escapes, or other pressure-driven situations
+  - Combat should emerge from scenes and be prepped as an action scene rather than standing apart from the rest of the session
+  - Example stage-setters:
+    - a street fight
+    - a rooftop chase
+    - a stealth entry
+    - a heist under disguise
+  - Example complications:
+    - a second boss phase
+    - children playing in the street
+    - an old friend recognizing a character during the job
+    - a disguise that looks out of place
 
 - `Secrets and Clues`
   - Important facts, revelations, clues, rumors, or truths the players may uncover

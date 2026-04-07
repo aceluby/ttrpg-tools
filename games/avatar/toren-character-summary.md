@@ -66,7 +66,7 @@ of choosing a better path.
 
 ## Fighting Techniques
 
-- `Mastered`: `Disorient`
+- `Mastered`: `Chi Blocking Jabs`
   - `Advance & Attack`
   - 
 - `Learned`: `Counterstrike`

@@ -22,8 +22,8 @@ For this game, the planner should assume:
 
 ## Campaign Snapshot
 
-- campaign level: `7`
-- campaign tone: `fairly serious`
+- campaign level: 7
+- campaign tone: fairly serious
 - current primary setting: `Everthrone`, the capital of `Vaeloria`
 - major themes:
   - political intrigue
@@ -31,6 +31,70 @@ For this game, the planner should assume:
   - the looming return of dragons
 - current note:
   - dragons have not returned yet, but their return is part of the campaign hook and long-term pressure
+
+## Campaign Premise
+
+- genre and scope: epic fantasy adventure
+- table assumption: death is real and failure has lasting consequences
+- core inspiration:
+  - direct lifts from `Realm of the Elderlings`, especially `Elderlings`, beast magic, and `Skill` adapted as `weave`
+  - overall plot shape is heavily inspired by Robin Hobb
+  - broader tone influence also comes from `Critical Role`
+
+## Major Regions
+
+- `Everthrone`
+  - main kingdom and current political center
+- `Zephandor`
+  - mountain kingdom associated with half-elves
+- `Vaelport`
+  - southern trading city
+- `Vraegari`
+  - northern half-orc kingdom
+- `Theaxios`
+  - slave states of the south
+- `the Wild`
+  - southern region north of `Vaelport` and south of the mountains
+
+## Active Political Situation
+
+- `Vraegari` is attacking `Everthrone`
+- the attacks are being framed as `Zephandorian` responsibility
+- `Cerres` is actually pulling the strings behind this conflict
+- `Zephandor` sought to prove its innocence by securing a royal marriage alliance through `Princess Serel Aiuvarin`
+
+## Core Setting Truths
+
+- `the weave` is the source of magic in the world
+- `Elderlings` are dragon-linked figures
+- dragons are still treated as myth by the wider world
+- because dragons are gone, elderlings are commonly seen as mutilated beasts rather than sacred or noble beings
+- in `the Wild`, babies born with elderling-like malformations are regularly left to die
+- `Liveships` and `serpents` exist in the setting as part of the elderling-derived world structure
+- `serpents` are unformed dragons, effectively dragon caterpillars
+- the `hollowed` are the campaign equivalent of the `Forged` from `Realm of the Elderlings`
+
+## Major Campaign State
+
+- the party was recruited by `Nyx` into covert service for the crown after arriving in `Everthrone`
+- their early covert work included infiltrating `Lord Carston Rhyne`'s manor and uncovering links between `Rhyne`, `Rhaegar`, and outside forces
+- at `Iron Hollow`, the party killed an entire hollowed town and became secretly known as the `Butchers of Iron Hollow`
+- `Princess Serel Aiuvarin` proposed peace through marriage, and the party was sent to `Zephandor` as royal envoys
+- on the journey to `Zephandor`, the party discovered a dragon-linked silent dungeon, recovered strange silver and magical items, and Dax gained an amulet that grants an ephemeral dragon mount
+- `Prince Rhaegar` tried and failed to frame the party for the death of `Prince Kaelith Aiuvarin`
+- the group convinced `Prince Dorian` to marry `Princess Serel Aiuvarin`
+- the party returned to `Everthrone`, secured the marriage alliance, won the harvest festival tournament, and were granted `Lord Carston Rhyne`'s manor
+- after months of downtime, the party was trapped in a pocket dimension with `the Corterie`
+
+## Live Unresolved Threads
+
+- the party needs a weapon capable of combating the `hollowed`
+- the party must escape the pocket dimension
+- `the Corterie` creates active rivalry pressure and is looking for a gem containing the trapped essence of the sorcerer who created the dimension
+- Marcel has already dreamed that months will pass outside the pocket dimension, the king will die, `Dorian` will vanish, and `Rhaegar` will move for control
+- the likely "weapon" is the trapped wizard inside the dimension, but releasing him would be a grave mistake
+- `Rhaegar` remains the most immediate internal threat to `Everthrone`
+- `Cerres` is still shaping the wider war indirectly through manipulated kingdoms and abducted royals
 
 ## Current Factions And Antagonists
 
@@ -42,6 +106,9 @@ For this game, the planner should assume:
 
 - `the Corterie`
   - recurring political or social force that should be treated as part of the campaign's living power structure
+
+- `Cerres`
+  - larger campaign antagonist using prophecy, abduction, and political manipulation to prevent dragon return
 
 ## Core Rules Guardrail
 
@@ -83,8 +150,8 @@ Avoid D&D 5e-specific terms unless the user explicitly asks for conversion.
 
 ## Encounter Style
 
-- default danger level: `dangerous`
-- encounter tuning bias: `slightly harder than standard`
+- default danger level: dangerous
+- encounter tuning bias: slightly harder than standard
 - the planner should assume the GM is comfortable with pressure and attrition
 - the planner should support multiple smaller skirmish-style encounters before a major battle when the location and pacing support it
 - when inside dungeons, the planner should assume a dungeon-turn structure with 10-minute stretches for exploration, investigation, movement, and pressure tracking
@@ -98,6 +165,35 @@ For dungeon-based sessions, assume:
 - each stretch may give the party a chance for searching, investigation, travel, caution, or puzzle interaction
 - dungeon initiative may be used to structure pressure and skirmishes before major combat
 - session plans should support this by including time-aware scenes, pressure points, and small encounter opportunities
+
+## Custom Procedures
+
+### Stealth And Surprise
+
+- if a character is stealthed and not noticed, they can take a free opening shot
+- that opening shot can include sneak attack when appropriate
+- once everyone is aware the action is happening, initiative is rolled
+- the ambushing group gets +2 to initiative rolls
+- the ambushing group also gains any applicable surprise-round style benefits used at the table
+
+### Overland Attrition Mini-Game
+
+- use a per-traveler `Strain` score for harsh travel stretches
+- `Strain` stacks day to day until removed by real recovery
+- common gain triggers:
+  - ending the day unfed
+  - ending the day with less than half required water
+  - critically failing a major travel survival check and pushing on
+  - being reduced to 0 HP during a travel encounter
+  - pushing onward while already Fatigued
+- default thresholds:
+  - 1 Strain: -1 to overland Survival, Nature, and forced-march checks
+  - 2 Strain: Fatigued if not already
+  - 3 Strain: Clumsy 1 and -5 feet status penalty to Speed
+  - 4 Strain: the next failed hunger, dehydration, or combat-related Fortitude save can collapse the traveler into dying
+  - 5 Strain: death or a severe lasting consequence is on the table
+- a full day with enough food, enough water, and safe rest removes 1 Strain
+- extraordinary shelter or major relief can remove 2 Strain
 
 ## Stealth And Surprise Assumptions
 

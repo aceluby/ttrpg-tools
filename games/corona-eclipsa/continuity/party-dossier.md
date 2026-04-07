@@ -1,4 +1,4 @@
-# Corona Eclipsa Party Dossier
+# Party Dossier
 
 Last updated: 2026-03-13
 
@@ -9,6 +9,7 @@ This file captures stable, reusable character continuity for the current player 
 - Role: stealth-forward outsider, scout, thief, and ranged opportunist
 - Ancestry: human
 - Class mix: rogue / ranger
+- Player sheet JSON path: ../player-json/harlan.json
 - Visual: usually hooded
 - Core personality: loner, slow to trust, emotionally distant
 - Hidden need: wants connection but does not know how to make it
@@ -20,6 +21,7 @@ This file captures stable, reusable character continuity for the current player 
   - ranged attacks against off-guard opponents
 - Key relationship:
   - `Nighteyes` is a true partner, not a pet
+  - companion combat stats live in `continuity/npc-faction-dossier.md#nighteyes`
 - Secret:
   - his bond with `Nighteyes` is considered taboo "beast magic"
 - Background notes:
@@ -48,34 +50,63 @@ This file captures stable, reusable character continuity for the current player 
 ## Dax
 
 - Role: frontline bruiser, intimidator, and direct-action problem solver
+- Full name:
+  - `Daxon Wraxor`
 - Heritage: dragonblood
 - Class: fighter
+- Player sheet JSON path: ../player-json/dax.json
+- Practical identity:
+  - bounty hunter
 - Core personality: intense at all times
 - Social pattern: prefers confrontation over negotiation
+- Deeper temperament:
+  - quiet
+  - introspective
+  - blunt
+  - deeply loyal once trust is earned
 - Signature table strengths:
   - melee combat
   - intimidation
+  - tracking
+  - ambushes and shock tactics
 - Central goal:
   - find his missing father
 - Internal conflict:
   - fears rejection for what he is more than the burden of destiny
 - Physical burden:
   - visibly deformed by horns and scales on his neck
+- Distinctive features:
+  - golden slit-pupiled eyes
+  - clawed hand
+  - pointed teeth
 - Public behavior:
   - tries to hide his dragonblood traits because people do not accept them
 - Family notes:
+  - father is `Bernard Wraxor`, a former `Everthrone` general turned exile
+  - mother is `Matilda Wraxor`, a former `Carvasean` slave with hidden draconic lineage
+  - Matilda died giving birth to him
+  - his birth and visible draconic traits forced his father to flee with him into exile
   - remembers his father as loving but hard
   - does not know whether his father abandoned him, was taken, or died
   - assumes his mother is dead, but that is not actually certain
+- Background notes:
+  - was raised in the wilderness by `Bernard` after fleeing `Everthrone`
+  - was trained young in discipline, tactics, and survival like a soldier
+  - made a life for himself on the margins as a feared and effective bounty hunter
+  - keeps a rune-etched pendant from `Matilda` as an important clue to her lineage
 - Party ties:
   - closest PC bond is with Jin
   - sees Jin more as an uncle than a father
 - Important NPC tie:
-  - bonded strongly with `Wyll`, a stoner kid from `Zephiorion`, the mountain city
+  - bonded strongly with `Wylliam`, a stoner kid from `Zephiorion`, the mountain city
 - Arc hooks:
+  - his dragon bloodline is tied to `Mirage`, an arcane dragon exemplar associated with mystery, illusion, and hidden truths
+  - dreams of dragons, flight, and ancient places may be blood-memory rather than fantasy
   - dragonbloods were dragon keepers before they went extinct
   - Dax is destined to become a dragon rider
   - he would embrace that destiny if confirmed
+- Institutional mistrust:
+  - deeply suspicious of nobility, religion, and institutions that cast him out
 - Emotional triggers:
   - learning his father is dead
   - seeing his mother alive
@@ -85,14 +116,19 @@ This file captures stable, reusable character continuity for the current player 
 - Role: moral center, disciplined anchor, and quiet protector
 - Ancestry: human
 - Class: monk
+- Player sheet JSON path: ../player-json/jin.json
 - Core personality: quiet and meditative
+- Spiritual style:
+  - listens more than he speaks
+  - carries restraint like a discipline rather than a lack of feeling
 - Signature table strengths:
   - athletics
   - insight
 - Core goal:
   - understand his god better
 - Faith:
-  - follows `Soryan`, a Buddha-like god
+  - follows `Soryan`, also preserved in some teachings under the name `Elos`
+  - centers ideas of the `Gentle Flame`, restraint, compassion, and the hidden inner life
   - has personally met `Soryan`
   - serves as `Soryan`'s champion
 - Defining principle:
@@ -105,6 +141,7 @@ This file captures stable, reusable character continuity for the current player 
   - leads by quietly intervening rather than taking center stage
 - Hope for the party:
   - wants to see the younger members succeed
+  - worries most about `Dax`, whose youth and impulsiveness make him feel most at risk
 - Hard triggers:
   - slavery
   - abuse
@@ -113,7 +150,6 @@ This file captures stable, reusable character continuity for the current player 
   - slavery remains widespread in the south
   - he may eventually have a chance to strike against it
 - Open continuity questions:
-  - which party member worries him most
   - what he would do if a major anti-slavery opportunity conflicted with the party's immediate goal
 
 ## Marcel
@@ -121,7 +157,11 @@ This file captures stable, reusable character continuity for the current player 
 - Role: social lead, loud frontman, and support-focused operator
 - Heritage: changeling
 - Class: bard
+- Player sheet JSON path: ../player-json/marcel.json
 - Core personality: outgoing, charismatic, and naturally takes center stage
+- Performance identity:
+  - a practiced crowd-worker who can pull whole rooms into his rhythm
+  - often performs larger than life while privately feeling emotionally hollow
 - Signature table strengths:
   - performance
   - deception
@@ -135,11 +175,17 @@ This file captures stable, reusable character continuity for the current player 
   - he has prophetic dreams
   - he does not know where he came from
   - he fears that his charisma is all an act
+  - applause and attention do not reliably fill the emptiness he is covering
 - Identity note:
   - does not really understand that he is a changeling, only that he is "different"
+- Origin threads:
+  - he is tied to a silver-eyed witch / changeling figure associated with moonlit song and child-taking stories
+  - a recurring melody seems connected to his past and to his changeling magic
+  - he has seen visions of a rune-carved standing stone marked with a crescent moon
 - Party ties:
   - probably closest to Dax
   - understands Harlan the least
+  - his first connection to the group came through a note directing him to find Jin near `Vaelport`
 - Presentation:
   - very loud and outgoing
 - Information behavior:
@@ -150,6 +196,7 @@ This file captures stable, reusable character continuity for the current player 
   - public embarrassment can break his confidence
 - Arc hook:
   - his "mother" is the major antagonist behind current events
+  - moon-song, changeling magic, and the silver-eyed woman remain central to uncovering his origin
 
 ## Cross-Party Notes
 

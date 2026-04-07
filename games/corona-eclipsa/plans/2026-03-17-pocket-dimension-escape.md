@@ -1,4 +1,4 @@
-# Session Plan: Pocket Dimension Escape
+# 30 - Pocket Dimension Escape
 
 - Game: Corona Eclipsa
 - System: Pathfinder 2e
@@ -55,7 +55,7 @@
     - Let `George` look ready to break the truce if anyone reaches for power first.
     - `Elys Merdye` watches more than she speaks.
 - Enter the pit chamber.
-    - A vast `100` foot hole splits the room with an island and central door in the middle.
+    - A vast 100 foot hole splits the room with an island and central door in the middle.
     - Two side options are clear: the office route and the puzzle route.
     - The chamber should feel designed to force a choice under pressure.
 - Puzzle-room route.
@@ -104,7 +104,7 @@
       thing chooses not to kill you.
     - Deeper details: faint scrape marks from old constructs, hairline sigils in the stone, no dust, no natural echo.
 - Pit Chamber
-    - Rendering: a `100` foot void, a lonely stone island, a central door, and side passages that feel like arguments
+    - Rendering: a 100 foot void, a lonely stone island, a central door, and side passages that feel like arguments
       made architecture.
     - Deeper details: the drop swallows sound oddly, the island seems slightly closer when stared at, and the room
       punishes haste.
@@ -220,7 +220,7 @@
 - Access to the route out of the pocket dimension
 - A stronger bond beat between `Harlan` and `Nighteyes`
 - Dragon-linked recognition or omen for `Dax`
-- Optional office salvage: roll on the `d20` table below if the party searches locked drawers, cabinets, or containment
+- Optional office salvage: roll on the d20 table below if the party searches locked drawers, cabinets, or containment
   rooms
 
 ### d20 Treasure Table
@@ -229,22 +229,22 @@
 |-----|--------------------------------------------------------------------------------------------------------|
 | 1   | `18 gp`, a silver signet ring worth `8 gp`                                                             |
 | 2   | `22 gp`, a carved jade bead worth `15 gp`, and a `Lesser Smokestick`                                   |
-| 3   | `30 gp` and `2` `Lesser Thunderstones`                                                                 |
-| 4   | `28 gp`, a gold ink set worth `20 gp`, and `2` `Lesser Healing Potions`                                |
+| 3   | `30 gp` and 2 `Lesser Thunderstones`                                                                 |
+| 4   | `28 gp`, a gold ink set worth `20 gp`, and 2 `Lesser Healing Potions`                                |
 | 5   | `35 gp`, a `Potency Crystal`, and a `Lesser Bravo's Brew`                                              |
 | 6   | `40 gp` and a scroll case containing `Invisibility`, `Water Breathing`, and `Dispel Magic`             |
-| 7   | `45 gp`, a fine spyglass worth `25 gp`, and `2` `Bravo's Brew`                                         |
-| 8   | `55 gp` and a wand of `Tailwind` (`2nd` rank) with `10` charges remaining                              |
-| 9   | `60 gp`, a `Moderate Healing Potion`, and a `Necklace of Fireballs I` with `1` bead left               |
+| 7   | `45 gp`, a fine spyglass worth `25 gp`, and 2 `Bravo's Brew`                                         |
+| 8   | `55 gp` and a wand of `Tailwind` (2nd rank) with 10 charges remaining                              |
+| 9   | `60 gp`, a `Moderate Healing Potion`, and a `Necklace of Fireballs I` with 1 bead left               |
 | 10  | `70 gp` and `Boots of Elvenkind`                                                                       |
 | 11  | `75 gp`, a packet of refined cold iron sling bullets worth `20 gp`, and a scroll of `Fly`              |
 | 12  | `85 gp` and `Cloak of Elvenkind`                                                                       |
 | 13  | `90 gp`, a `Moderate Healing Potion`, and a `Spiderfoot Brew`                                          |
 | 14  | `100 gp` and `Goggles of Night`                                                                        |
-| 15  | `110 gp` and `Wand of Invisibility` (`2nd` rank) with `10` charges remaining                           |
+| 15  | `110 gp` and `Wand of Invisibility` (2nd rank) with 10 charges remaining                           |
 | 16  | `120 gp`, a dragon-carved ivory idol worth `40 gp`, and a scroll of `Dimension Door`                   |
 | 17  | `135 gp` and `Winged Sandals`                                                                          |
-| 18  | `150 gp`, `2` `Moderate Healing Potions`, and a `Staff of Fire` with `3` charges remaining             |
+| 18  | `150 gp`, 2 `Moderate Healing Potions`, and a `Staff of Fire` with 3 charges remaining             |
 | 19  | `180 gp` and `Belt of Good Health`                                                                     |
 | 20  | `220 gp`, `Boots of Bounding`, and a black marble key that clearly opens something important elsewhere |
 
@@ -253,7 +253,7 @@
 - Keep the `Corterie` useful first and dangerous second. The betrayal lands harder if cooperation feels briefly real.
 - Do not over-explain the wizard immediately. Let the party earn the truth through documents, the demon, and the shape
   of the space itself.
-- This is a short session. Favor `3-4` strong beats over full map completion.
+- This is a short session. Favor 3-4 strong beats over full map completion.
 - If pacing runs fast, let the dragon-god threshold become the closing image.
 - If pacing runs slow, the office and puzzle room alone can carry the full session while still delivering major clues.
 
@@ -261,44 +261,44 @@
 
 ### Anti-Magic Golem Sentinel
 
-- Level `8` construct
+- Level 8 construct
 - Perception `+16`; darkvision
 - Languages none
 - Skills Athletics `+18`
 - Str `+6`, Dex `+1`, Con `+5`, Int `-4`, Wis `+2`, Cha `-4`
 - Items none
-- AC `27`; Fort `+19`, Ref `+13`, Will `+14`
-- HP `145`
+- AC 27; Fort `+19`, Ref `+13`, Will `+14`
+- HP 145
 - Immunities bleed, death effects, disease, doomed, drained, fatigued, healing, necromancy, nonlethal, paralyzed,
   poison, sickened, unconscious, mental
-- Resistances physical `7` except adamantine
-- Anti-Magic Shell: When a creature casts a spell within `30` feet, the golem can Step toward that creature as a
-  reaction. If the spell directly targets the golem, the golem gains `10` temporary HP.
+- Resistances physical 7 except adamantine
+- Anti-Magic Shell: When a creature casts a spell within 30 feet, the golem can Step toward that creature as a
+  reaction. If the spell directly targets the golem, the golem gains 10 temporary HP.
 - Triggered Wakefulness: The golem stays passive until attacked or until a creature openly uses magic in its area.
-- Speed `25` feet
-- Melee `1` fist `+20` (magical), Damage `2d10+8` bludgeoning plus `1d6` force
-- Melee `1` crushing grasp `+20`, Damage `2d8+8` bludgeoning and the target is grabbed
-- Arcane Disruption `2` actions: The golem slams the floor in a `10` foot emanation. Creatures in the area take `4d6`
-  force damage, DC `26` basic Reflex. A creature that cast a spell since the end of the golem's last turn is off-guard
+- Speed 25 feet
+- Melee 1 fist `+20` (magical), Damage 2d10+8 bludgeoning plus 1d6 force
+- Melee 1 crushing grasp `+20`, Damage 2d8+8 bludgeoning and the target is grabbed
+- Arcane Disruption 2 actions: The golem slams the floor in a 10 foot emanation. Creatures in the area take 4d6
+  force damage, DC 26 basic Reflex. A creature that cast a spell since the end of the golem's last turn is off-guard
   until the start of its next turn.
 
 ### Tiny, Corterie Schemer
 
-- Level `7` humanoid spellcaster and planner
+- Level 7 humanoid spellcaster and planner
 - Perception `+15`
 - Languages Common plus any fitting court languages
 - Skills Arcana `+18`, Deception `+17`, Diplomacy `+15`, Society `+16`, Stealth `+13`
 - Str `+0`, Dex `+2`, Con `+1`, Int `+4`, Wis `+2`, Cha `+3`
-- AC `25`; Fort `+12`, Ref `+15`, Will `+17`
-- HP `95`
-- Speed `25` feet
-- Melee `1` dagger `+14`, Damage `1d4+2` piercing
-- Occult or Arcane Spells DC `25`, attack `+17`
+- AC 25; Fort `+12`, Ref `+15`, Will `+17`
+- HP 95
+- Speed 25 feet
+- Melee 1 dagger `+14`, Damage 1d4+2 piercing
+- Occult or Arcane Spells DC 25, attack `+17`
 - Suggested spells:
-    - `4th`: `dimension door`, `resilient sphere`
-    - `3rd`: `haste`, `invisibility sphere`, `wall of wind`
-    - `2nd`: `invisibility`, `knock`, `mirror image`
-    - `1st`: `fear`, `grease`, `sure strike`
+    - 4th: `dimension door`, `resilient sphere`
+    - 3rd: `haste`, `invisibility sphere`, `wall of wind`
+    - 2nd: `invisibility`, `knock`, `mirror image`
+    - 1st: `fear`, `grease`, `sure strike`
     - cantrips: `detect magic`, `mage hand`, `shield`, `telekinetic projectile`
 - Smash-and-Grab Notes:
     - `Tiny` is built to open routes, cover escape, speed up allies, and control the room just long enough to grab the
@@ -308,68 +308,68 @@
 
 ### George, Corterie Brute
 
-- Level `7` humanoid magus-style striker
+- Level 7 humanoid magus-style striker
 - Perception `+14`
 - Skills Athletics `+17`, Arcana `+14`, Intimidation `+16`
 - Str `+4`, Dex `+2`, Con `+4`, Int `+2`, Wis `+1`, Cha `+1`
-- AC `25`; Fort `+17`, Ref `+14`, Will `+13`
-- HP `118`
-- Speed `25` feet
-- Melee `1` spellstruck hammer `+18`, Damage `2d10+7` bludgeoning
-- Melee `1` gauntlet `+18`, Damage `2d6+7` bludgeoning
-- Arcane DC `24`, spell attack `+16`
+- AC 25; Fort `+17`, Ref `+14`, Will `+13`
+- HP 118
+- Speed 25 feet
+- Melee 1 spellstruck hammer `+18`, Damage 2d10+7 bludgeoning
+- Melee 1 gauntlet `+18`, Damage 2d6+7 bludgeoning
+- Arcane DC 24, spell attack `+16`
 - Suggested spells:
-    - `2nd`: `enlarge`, `mirror image`
-    - `1st`: `sure strike`, `shocking grasp`
+    - 2nd: `enlarge`, `mirror image`
+    - 1st: `sure strike`, `shocking grasp`
     - cantrips: `shield`, `telekinetic projectile`, `ignition`
 - Spellstrike Breach: Once the fight starts, George tries to crack the strongest target or line using a charged opening
   hit, then body-blocks escape routes.
-- Breach Momentum: If George critically hits or drops a target to `0`, he can Step as a free action.
+- Breach Momentum: If George critically hits or drops a target to 0, he can Step as a free action.
 
 ### Elys Merdye, Corterie Shadow
 
-- Level `7` humanoid occult or arcane infiltration specialist
+- Level 7 humanoid occult or arcane infiltration specialist
 - Perception `+16`
 - Skills Acrobatics `+17`, Stealth `+18`, Thievery `+17`, Arcana `+14`, Occultism `+14`
 - Str `+1`, Dex `+4`, Con `+2`, Int `+2`, Wis `+3`, Cha `+1`
-- AC `26`; Fort `+13`, Ref `+18`, Will `+15`
-- HP `88`
-- Speed `30` feet
-- Melee `1` shortsword `+17`, Damage `2d6+5` piercing
-- Ranged `1` throwing knife `+17`, Damage `2d4+3` piercing
-- Arcane or occult DC `24`, spell attack `+16`
+- AC 26; Fort `+13`, Ref `+18`, Will `+15`
+- HP 88
+- Speed 30 feet
+- Melee 1 shortsword `+17`, Damage 2d6+5 piercing
+- Ranged 1 throwing knife `+17`, Damage 2d4+3 piercing
+- Arcane or occult DC 24, spell attack `+16`
 - Suggested spells:
-    - `3rd`: `time jump`
-    - `2nd`: `invisibility`, `knock`, `mist`
-    - `1st`: `sure strike`, `pest form`
+    - 3rd: `time jump`
+    - 2nd: `invisibility`, `knock`, `mist`
+    - 1st: `sure strike`, `pest form`
     - cantrips: `detect magic`, `mage hand`, `telekinetic hand`, `daze`
-- Slip Between Pillars `1` action: Stride. If she ends movement in cover or concealment, she becomes hidden.
+- Slip Between Pillars 1 action: Stride. If she ends movement in cover or concealment, she becomes hidden.
 - Recovery Priority: Elys focuses on reaching the objective, lifting keys or valuables, opening paths, and vanishing
   before the front line can pin her down.
-- Ambush Strike: Against an off-guard target, Elys deals an extra `2d6` precision damage.
+- Ambush Strike: Against an off-guard target, Elys deals an extra 2d6 precision damage.
 
 ### Caged Demon Slave
 
-- Level `8` fiend
+- Level 8 fiend
 - Perception `+17`; darkvision
-- Languages Common, Infernal, telepathy `60` feet
+- Languages Common, Infernal, telepathy 60 feet
 - Skills Deception `+19`, Intimidation `+18`, Occultism `+16`, Religion `+14`, Stealth `+15`
 - Str `+4`, Dex `+3`, Con `+4`, Int `+2`, Wis `+2`, Cha `+5`
-- AC `26`; Fort `+18`, Ref `+15`, Will `+17`
-- HP `135`
-- Resistances physical `5` except cold iron; fire `10`
-- Weaknesses cold iron `5`
-- Speed `25` feet
-- Melee `1` claw `+18` (agile), Damage `2d8+6` slashing
-- Melee `1` jaws `+18`, Damage `2d10+6` piercing plus `1d6` mental
-- Frenzied Scrabble `2` actions: The demon Strides twice. If it ends adjacent to a creature, it makes one claw Strike
+- AC 26; Fort `+18`, Ref `+15`, Will `+17`
+- HP 135
+- Resistances physical 5 except cold iron; fire 10
+- Weaknesses cold iron 5
+- Speed 25 feet
+- Melee 1 claw `+18` (agile), Damage 2d8+6 slashing
+- Melee 1 jaws `+18`, Damage 2d10+6 piercing plus 1d6 mental
+- Frenzied Scrabble 2 actions: The demon Strides twice. If it ends adjacent to a creature, it makes one claw Strike
   against that creature.
-- Breaking Words `2` actions: The demon spits a concentrated truth or lie at one creature within `30` feet. DC `26` Will
+- Breaking Words 2 actions: The demon spits a concentrated truth or lie at one creature within 30 feet. DC 26 Will
   save.
     - Critical Success: No effect.
     - Success: The creature is distracted and takes `-1` status penalty to Perception until the end of its next turn.
-    - Failure: The creature becomes off-guard and frightened `1`.
-    - Critical Failure: The creature is off-guard, frightened `2`, and can't use reactions until the end of its next
+    - Failure: The creature becomes off-guard and frightened 1.
+    - Critical Failure: The creature is off-guard, frightened 2, and can't use reactions until the end of its next
       turn.
 - Starved But Not Weak: The demon looks half-ruined, but decades of confinement have made it mean rather than fragile.
 - Bound In Iron: If still caged, it cannot use Strikes against creatures outside the cage, but it can still use
@@ -377,9 +377,9 @@
 
 ### Running Notes
 
-- For a `2` hour session, use one golem at a time unless the party openly escalates with repeated magic.
+- For a 2 hour session, use one golem at a time unless the party openly escalates with repeated magic.
 - If the betrayal becomes a full fight, start with `Tiny` and `George`, then bring in `Elys Merdye` as a flanker, thief,
   or extraction piece once positioning matters.
-- If you want a lighter combat load, cut George's HP to `110` and the golem's HP to `125`.
+- If you want a lighter combat load, cut George's HP to 110 and the golem's HP to 125.
 - The demon should feel dangerous, unstable, and useful, but it does not need to become the session's main fight unless
   the party makes that happen.

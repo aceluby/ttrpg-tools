@@ -16,6 +16,9 @@ As a GM, I want to provide a rough idea for an upcoming session and a target ses
 ## Product Constraints
 
 - the planner must ask `10-20` clarifying questions before final generation
+- the planner must stop after asking clarifying questions and wait for the GM's answers before drafting the session plan
+- the clarifying step should function like a collaborative writers-room pass, helping the GM shape beats, reveals, pacing, constraints, and desired outcomes before generation
+- once clarifying answers are received, the planner should restate the locked-in assumptions it will use for generation
 - the planner must keep plans separated by game system
 - the planner must load system-specific guidance from the selected game's definition folder
 - the planner must not mix rules, monsters, treasure, or assumptions across game systems
@@ -127,6 +130,8 @@ Example question set:
 
 This is valid because it stays within the required `10-20` range.
 
+The planner should end this step by waiting for the GM's answers. It should not generate a draft session plan, outline, or partial scene list until those answers are provided or explicitly skipped.
+
 ### Step 3: Normalized Request
 
 Example normalized values:
@@ -139,6 +144,8 @@ Example normalized values:
   - cult remains mostly covert
   - reward should be modest and rules-normal for the game
   - one combat encounter max
+
+These assumptions should be presented back to the GM in a concise locked-in summary before or alongside final generation so the workflow feels collaborative rather than unilateral.
 
 ### Step 4: Structured Output
 

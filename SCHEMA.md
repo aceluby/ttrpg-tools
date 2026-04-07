@@ -321,8 +321,15 @@ Rules:
 {
   "name": "string",
   "purpose": "string",
+  "scene_type": "general | social | investigation | travel | action | combat | chase | infiltration | stealth | escape | other",
   "likely_trigger": "string | null",
   "complication": "string | null",
+  "meaningful_decision": "string | null",
+  "what_can_go_wrong": "string | null",
+  "emotional_impact": "string | null",
+  "information_revealed": "string | null",
+  "action_stage_setter": "string | null",
+  "possible_complications": ["string"],
   "pacing_weight": "light | medium | heavy",
   "required": "boolean"
 }
@@ -331,7 +338,23 @@ Rules:
 Rules:
 
 - scenes are flexible possibilities, not a fixed script
+- each scene should contribute at least one of the following:
+  - a meaningful player decision
+  - real potential for things to go wrong
+  - emotional impact
+  - important information delivery
+- strong scenes often contribute two or more of those elements
+- session flow should generally move scene to scene rather than relying on filler connective tissue
 - count should scale with session duration
+- as a default pacing rule, plans should assume roughly `3` scenes per hour of play
+- common scene types include exploration, conversation, party consensus scenes, riddles or puzzles, deadly traps, and low-difficulty combat encounters
+- a more difficult combat encounter can consume the equivalent of roughly `2-6` scenes depending on difficulty and expected table time
+- the prepared scene list should include enough likely scenes, pivots, and fallback beats to fill the target session length
+- action scenes should use `the round structure`
+- for an action scene, `action_stage_setter` should explain what sets the scene in motion
+- for an action scene, `possible_complications` should usually include `3-5` complications that can emerge during play
+- action scenes can include combat, chase, infiltration, stealth, escape, or other pressure-driven sequences
+- combat should be treated as one kind of action scene and should follow these same prep rules
 
 ### `SecretCluePlanEntry`
 

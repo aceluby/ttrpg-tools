@@ -1,4 +1,4 @@
-# Corona Eclipsa World Lore Dossier
+# World Lore Dossier
 
 Last updated: 2026-03-13
 
@@ -104,6 +104,17 @@ This file captures setting truths, public beliefs, hidden realities, and major l
   - the gods have largely abandoned humanity
 - Exception:
   - some gods still seem more active than others
+- Preserved teaching tradition:
+  - `Soryan` is associated in some monastic teachings with `Elos` and the `Gentle Flame`
+  - this tradition emphasizes restraint, compassion, quiet presence, and the careful tending of inner life
+- Key concepts in the `Gentle Flame` tradition:
+  - warm, do not burn
+  - light, do not blind
+  - some truths and loves are carried silently rather than displayed
+- Known practices:
+  - an annual silence called the `Ember Fast`
+  - the `Willow Watch`, where a lantern is left beneath a southern grove during the frost moon
+  - leaving one cup full at meals for what was loved in silence
 - Open details:
   - which gods are meaningfully active
   - how ordinary people practice religion now
