@@ -302,25 +302,6 @@ const TRAIT_LOOKUP: Record<string, string> = {
   Changeling: "Fey or witch-linked heritage with identity and magical implications.",
 };
 
-const ACTION_REFERENCE = [
-  { name: "Delay", cost: "Free", detail: "Choose to wait and take your turn later in the initiative order. When you jump back in, your initiative moves to that new spot." },
-  { name: "Stride", cost: "1 action", detail: "Move up to your Speed." },
-  { name: "Step", cost: "1 action", detail: "Move 5 feet without triggering reactions based on movement." },
-  { name: "Strike", cost: "1 action", detail: "Make a melee or ranged attack. Additional attacks the same turn usually take multiple attack penalty." },
-  { name: "Raise a Shield", cost: "1 action", detail: "Gain your shield's circumstance bonus to AC until the start of your next turn." },
-  { name: "Hide", cost: "1 action", detail: "If you have cover, concealment, or are otherwise obscured, try to become hidden." },
-  { name: "Sneak", cost: "1 action", detail: "Move while trying to stay unnoticed. Requires you to already be hidden or undetected." },
-  { name: "Seek", cost: "1 action", detail: "Use Perception to look for hidden creatures, hazards, or objects." },
-  { name: "Recall Knowledge", cost: "1 action", detail: "Use a relevant skill to learn something useful about a creature, hazard, magic, or situation." },
-  { name: "Demoralize", cost: "1 action", detail: "Use Intimidation to frighten a foe that can see or hear you." },
-  { name: "Feint", cost: "1 action", detail: "Use Deception against Perception DC to make a target off-guard against your next melee attack." },
-  { name: "Trip", cost: "1 action", detail: "Use Athletics to knock a creature prone." },
-  { name: "Grapple", cost: "1 action", detail: "Use Athletics to grab and impede a target." },
-  { name: "Shove", cost: "1 action", detail: "Use Athletics to push a creature away from you." },
-  { name: "Aid", cost: "Reaction", detail: "Prepare to help an ally's action or defense, then roll when the trigger happens." },
-  { name: "Ready", cost: "2 actions", detail: "Prepare one action with a trigger and use your reaction to perform it later." },
-] as const;
-
 export function EncounterPanel() {
   const [encounter, setEncounter] = useState<EncounterState>(() => loadStoredEncounterState() ?? defaultState);
   const [draft, setDraft] = useState<ParticipantDraft>(emptyDraft);
@@ -336,7 +317,6 @@ export function EncounterPanel() {
   const [saveStatus, setSaveStatus] = useState("");
   const [menuOpen, setMenuOpen] = useState(false);
   const [sheetParticipantId, setSheetParticipantId] = useState<string | null>(null);
-  const [actionReferenceOpen, setActionReferenceOpen] = useState(false);
   const [toasts, setToasts] = useState<ToastMessage[]>([]);
   const [warningModalOpen, setWarningModalOpen] = useState(false);
   const [pendingAction, setPendingAction] = useState<PendingAction | null>(null);
@@ -755,7 +735,6 @@ export function EncounterPanel() {
     setHpAdjustments({});
     setMenuOpen(false);
     setSheetParticipantId(null);
-    setActionReferenceOpen(false);
     window.localStorage.removeItem(STORAGE_KEY);
     pushToast("Encounter cleared");
   }
@@ -1413,7 +1392,7 @@ export function EncounterPanel() {
                 <div className="flex flex-col gap-3 lg:flex-row lg:items-center lg:justify-between">
                   <h2 className="text-2xl font-semibold text-stone-900">Run Encounter</h2>
 
-                  <div className="grid gap-2 md:grid-cols-2 xl:grid-cols-5 lg:flex-1 lg:justify-end">
+                  <div className="grid gap-2 md:grid-cols-2 xl:grid-cols-4 lg:flex-1 lg:justify-end">
                     {activeIsMarcel ? (
                       <button
                         className={`rounded-xl px-4 py-2.5 text-sm font-semibold transition ${
@@ -1447,13 +1426,6 @@ export function EncounterPanel() {
                       type="button"
                     >
                       Delay Turn
-                    </button>
-                    <button
-                      className="rounded-xl border border-stone-300 bg-white px-4 py-2.5 text-sm font-semibold text-stone-700 transition hover:bg-stone-100"
-                      onClick={() => setActionReferenceOpen(true)}
-                      type="button"
-                    >
-                      Combat Actions
                     </button>
                   </div>
                 </div>
@@ -1772,10 +1744,6 @@ export function EncounterPanel() {
           onClose={() => setSheetParticipantId(null)}
           participant={sheetParticipant}
         />
-      ) : null}
-
-      {actionReferenceOpen ? (
-        <ActionReferenceModal onClose={() => setActionReferenceOpen(false)} />
       ) : null}
 
       {warningModalOpen ? (
@@ -2418,55 +2386,6 @@ function SpellEntrySection({
 
 function getLookupKey(label: string) {
   return label.replace(/\s+[+-]\d+$/, "").trim();
-}
-
-function ActionReferenceModal({ onClose }: { onClose: () => void }) {
-  return (
-    <div
-      className="fixed inset-0 z-50 flex items-center justify-center bg-stone-950/55 px-4 py-6 backdrop-blur-sm"
-      onClick={onClose}
-    >
-      <div
-        className="max-h-[90vh] w-full max-w-4xl overflow-y-auto rounded-[32px] border border-stone-300 bg-stone-50 p-6 shadow-[0_30px_100px_rgba(23,15,5,0.35)]"
-        onClick={(event) => event.stopPropagation()}
-      >
-        <div className="flex flex-col gap-4 lg:flex-row lg:items-start lg:justify-between">
-          <div>
-            <p className="text-xs uppercase tracking-[0.22em] text-stone-500">Combat Actions</p>
-            <h2 className="mt-2 text-3xl font-semibold text-stone-900">PF2e Combat Reference</h2>
-            <p className="mt-2 text-sm text-stone-600">
-              Quick reminders for common turn options at the table.
-            </p>
-          </div>
-
-          <button
-            className="rounded-full border border-stone-300 bg-white px-4 py-2 text-sm font-semibold text-stone-700 transition hover:bg-stone-100"
-            onClick={onClose}
-            type="button"
-          >
-            Close
-          </button>
-        </div>
-
-        <div className="mt-6 grid gap-3 md:grid-cols-2">
-          {ACTION_REFERENCE.map((action) => (
-            <div
-              key={action.name}
-              className="rounded-3xl border border-stone-200 bg-white p-4"
-            >
-              <div className="flex items-center justify-between gap-3">
-                <h3 className="text-lg font-semibold text-stone-900">{action.name}</h3>
-                <span className="rounded-full border border-stone-200 bg-stone-50 px-3 py-1 text-xs font-semibold text-stone-700">
-                  {action.cost}
-                </span>
-              </div>
-              <p className="mt-2 text-sm leading-6 text-stone-700">{action.detail}</p>
-            </div>
-          ))}
-        </div>
-      </div>
-    </div>
-  );
 }
 
 function ConfirmModal({

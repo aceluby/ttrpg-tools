@@ -1,0 +1,1441 @@
+{
+  "generatedAt": "2026-04-08T01:24:02.206Z",
+  "factions": [
+    {
+      "id": "everthrone",
+      "name": "Everthrone",
+      "aliases": [
+        "Everthrone"
+      ],
+      "childIds": [
+        "everthrone-court",
+        "harvest-festival-troupes",
+        "house-aerlyn",
+        "house-marovant",
+        "house-serrat",
+        "house-thorne",
+        "house-valemere",
+        "house-vossaryn",
+        "magicians",
+        "the-corterie"
+      ],
+      "keyPeople": [
+        "Prince Dorian Vaelor",
+        "King Aldric Vaelor Of Everthrone",
+        "Princess Serel Aiuvarin",
+        "Prince Rhaegar Vaelor",
+        "Garrik Wrayne",
+        "Lucian Bramblethorn",
+        "Darin Kell",
+        "Captain Lysa Marrow",
+        "Bran Underleaf",
+        "Sir Edric Vance",
+        "Kael \"Inkhand\" Sablemark",
+        "Lady Yselle Aerlyn",
+        "Ser Roland Aerlyn",
+        "Tovin Aerlyn",
+        "Lord Hadrien Marovant",
+        "Lady Aurette Marovant",
+        "Julen Marovant",
+        "Matriarch Veyna Serrat",
+        "Alden Serrat",
+        "Vaso Serrat",
+        "Lord Bennard Valemere",
+        "Lady Talia Valemere",
+        "Lucan Valemere",
+        "Lady Ysoria Vossaryn",
+        "Lord Orren Vossaryn",
+        "Seline Vossaryn",
+        "Rhett Thorne",
+        "Wylliam",
+        "Ames",
+        "Ardin",
+        "Advisor Nellis Corwin",
+        "Wylla",
+        "Silas Vey",
+        "Nico Vale",
+        "Elys Merdye",
+        "Tiny Cote",
+        "Queen Rosamund Vaelor",
+        "Nyx",
+        "Wilhye Pycey - Head Magician",
+        "Kristopher",
+        "George Hammyth",
+        "Lady Sabine Thorne",
+        "Maren Thorne"
+      ],
+      "lens": "mixed",
+      "notes": "",
+      "npcIds": [
+        "prince-dorian-vaelor",
+        "king-aldric-vaelor-of-everthrone",
+        "princess-serel-aiuvarin",
+        "prince-rhaegar-vaelor",
+        "garrik-wrayne",
+        "lucian-bramblethorn",
+        "darin-kell",
+        "captain-lysa-marrow",
+        "bran-underleaf",
+        "sir-edric-vance",
+        "kael-inkhand-sablemark",
+        "lady-yselle-aerlyn",
+        "ser-roland-aerlyn",
+        "tovin-aerlyn",
+        "lord-hadrien-marovant",
+        "lady-aurette-marovant",
+        "julen-marovant",
+        "matriarch-veyna-serrat",
+        "alden-serrat",
+        "vaso-serrat",
+        "lord-bennard-valemere",
+        "lady-talia-valemere",
+        "lucan-valemere",
+        "lady-ysoria-vossaryn",
+        "lord-orren-vossaryn",
+        "seline-vossaryn",
+        "rhett-thorne",
+        "wylliam",
+        "ames",
+        "ardin",
+        "advisor-nellis-corwin",
+        "wylla",
+        "silas-vey",
+        "nico-vale",
+        "elys-merdye",
+        "tiny-cote",
+        "queen-rosamund-vaelor",
+        "nyx",
+        "wilhye-pycey-head-magician",
+        "kristopher",
+        "george-hammyth",
+        "lady-sabine-thorne",
+        "maren-thorne"
+      ],
+      "parentId": null,
+      "risks": [],
+      "sourcePath": "continuity/npc-faction-dossier.md",
+      "summary": "",
+      "tier": "major",
+      "why": []
+    },
+    {
+      "id": "cerres",
+      "name": "Cerres",
+      "aliases": [
+        "Cerres"
+      ],
+      "childIds": [
+        "cerres-leadership",
+        "piebalds",
+        "red-reavers"
+      ],
+      "keyPeople": [
+        "Madrik Voss",
+        "Vaeloris Inkveil",
+        "Vivacia",
+        "Everett",
+        "King Of The Pirates",
+        "Jarl Vark Bloodwake",
+        "Runa Bloodwake",
+        "Kethra Bloodwake",
+        "Matriarch Ylva Frostvein",
+        "Rurik Frostvein",
+        "Svenja Frostvein",
+        "Jorund Ironhowl",
+        "Helka Ironhowl",
+        "Draven Ironhowl",
+        "Svala Ormskar",
+        "Toren Ormskar",
+        "Mauk Ormskar",
+        "Hrogg Redmaw",
+        "Skari Redmaw",
+        "Eydis Redmaw",
+        "Jarl Hrodan Skallvyr",
+        "Yrsa Skallvyr",
+        "Gorvek Skallvyr"
+      ],
+      "lens": "bad",
+      "notes": "",
+      "npcIds": [
+        "madrik-voss",
+        "vaeloris-inkveil",
+        "vivacia",
+        "everett",
+        "king-of-the-pirates",
+        "jarl-vark-bloodwake",
+        "runa-bloodwake",
+        "kethra-bloodwake",
+        "matriarch-ylva-frostvein",
+        "rurik-frostvein",
+        "svenja-frostvein",
+        "jorund-ironhowl",
+        "helka-ironhowl",
+        "draven-ironhowl",
+        "svala-ormskar",
+        "toren-ormskar",
+        "mauk-ormskar",
+        "hrogg-redmaw",
+        "skari-redmaw",
+        "eydis-redmaw",
+        "jarl-hrodan-skallvyr",
+        "yrsa-skallvyr",
+        "gorvek-skallvyr"
+      ],
+      "parentId": null,
+      "risks": [],
+      "sourcePath": "continuity/npc-faction-dossier.md",
+      "summary": "",
+      "tier": "major",
+      "why": []
+    },
+    {
+      "id": "vraegari",
+      "name": "Vraegari",
+      "aliases": [
+        "Vraegari"
+      ],
+      "childIds": [],
+      "keyPeople": [
+        "King Vargrim",
+        "Queen Brynja",
+        "Prince Eirik",
+        "Princess Astrid"
+      ],
+      "lens": "bad",
+      "notes": "",
+      "npcIds": [
+        "king-vargrim",
+        "queen-brynja",
+        "prince-eirik",
+        "princess-astrid"
+      ],
+      "parentId": null,
+      "risks": [],
+      "sourcePath": "continuity/npc-faction-dossier.md",
+      "summary": "",
+      "tier": "major",
+      "why": []
+    },
+    {
+      "id": "vaelport",
+      "name": "Vaelport",
+      "aliases": [
+        "Vaelport"
+      ],
+      "childIds": [
+        "house-kharvos",
+        "house-marinel",
+        "house-rhalmere",
+        "house-thalrix",
+        "house-vaylen",
+        "house-vescaro",
+        "the-ashmarked",
+        "the-iron-ink",
+        "the-saltbound",
+        "the-tattooed"
+      ],
+      "keyPeople": [
+        "Kyle",
+        "Merek Kharvos",
+        "Lysa Kharvos",
+        "Cadran Kharvos",
+        "Lady Cerys Marinel",
+        "Vaelessa",
+        "Captain Iven Rhalmere",
+        "Dena Rhalmere",
+        "Merovyx",
+        "Lady Vezza Thalrix",
+        "Rul Thalrix",
+        "Edrin Thalrix",
+        "Master Oren Vaylen",
+        "Sera Vaylen",
+        "Oryndral",
+        "Nalia Vescaro",
+        "Perrin Vescaro",
+        "Jast Vescaro",
+        "Mother Seli",
+        "Daro Ashmark",
+        "Keth Ashmark",
+        "Ressa Iron-Ink",
+        "Toren Iron-Ink",
+        "Mila Iron-Ink",
+        "Old Nerin Saltbound",
+        "Pela Saltbound",
+        "Hask Saltbound",
+        "Toman Marinel",
+        "Varik Rhalmere"
+      ],
+      "lens": "mixed",
+      "notes": "old harbor memory versus newer brutal profit | old liveship traders | new traders tied to Thraxios | the Tattooed",
+      "npcIds": [
+        "kyle",
+        "merek-kharvos",
+        "lysa-kharvos",
+        "cadran-kharvos",
+        "lady-cerys-marinel",
+        "vaelessa",
+        "captain-iven-rhalmere",
+        "dena-rhalmere",
+        "merovyx",
+        "lady-vezza-thalrix",
+        "rul-thalrix",
+        "edrin-thalrix",
+        "master-oren-vaylen",
+        "sera-vaylen",
+        "oryndral",
+        "nalia-vescaro",
+        "perrin-vescaro",
+        "jast-vescaro",
+        "mother-seli",
+        "daro-ashmark",
+        "keth-ashmark",
+        "ressa-iron-ink",
+        "toren-iron-ink",
+        "mila-iron-ink",
+        "old-nerin-saltbound",
+        "pela-saltbound",
+        "hask-saltbound",
+        "toman-marinel",
+        "varik-rhalmere"
+      ],
+      "parentId": null,
+      "risks": [],
+      "sourcePath": "continuity/npc-faction-dossier.md",
+      "summary": "major port city shaped by trade, inherited maritime power, slaving wealth, and survivor communities",
+      "tier": "major",
+      "why": []
+    },
+    {
+      "id": "zephandor",
+      "name": "Zephandor",
+      "aliases": [
+        "Zephandor"
+      ],
+      "childIds": [
+        "house-auvareth",
+        "house-caerwyn",
+        "house-draevor",
+        "house-morvain",
+        "house-selverin",
+        "house-tarrowen"
+      ],
+      "keyPeople": [
+        "King Therion Aiuvarin",
+        "Queen Lirael Aiuvarin",
+        "Prince Kaelith Aiuvarin",
+        "General Vaern Corvath",
+        "Ceira Vell",
+        "Lady Ilyra Auvareth",
+        "Lord Serik Auvareth",
+        "Caelen Auvareth",
+        "Magistrate Elsed Caerwyn",
+        "Veren Caerwyn",
+        "Mira Caerwyn",
+        "General Varos Draevor",
+        "Lady Thessia Draevor",
+        "Kalen Draevor",
+        "Lord Ossian Morvain",
+        "Lady Senra Morvain",
+        "Tavian Morvain",
+        "Lady Mereth Selverin",
+        "Jonel Selverin",
+        "Warden Halric Tarrowen",
+        "Eda Tarrowen",
+        "Brann Tarrowen",
+        "Rusk Selverin"
+      ],
+      "lens": "mixed",
+      "notes": "",
+      "npcIds": [
+        "king-therion-aiuvarin",
+        "queen-lirael-aiuvarin",
+        "prince-kaelith-aiuvarin",
+        "general-vaern-corvath",
+        "ceira-vell",
+        "lady-ilyra-auvareth",
+        "lord-serik-auvareth",
+        "caelen-auvareth",
+        "magistrate-elsed-caerwyn",
+        "veren-caerwyn",
+        "mira-caerwyn",
+        "general-varos-draevor",
+        "lady-thessia-draevor",
+        "kalen-draevor",
+        "lord-ossian-morvain",
+        "lady-senra-morvain",
+        "tavian-morvain",
+        "lady-mereth-selverin",
+        "jonel-selverin",
+        "warden-halric-tarrowen",
+        "eda-tarrowen",
+        "brann-tarrowen",
+        "rusk-selverin"
+      ],
+      "parentId": null,
+      "risks": [],
+      "sourcePath": "continuity/npc-faction-dossier.md",
+      "summary": "",
+      "tier": "major",
+      "why": []
+    },
+    {
+      "id": "ashmarked",
+      "name": "Ashmarked",
+      "aliases": [
+        "Ashmarked"
+      ],
+      "childIds": [],
+      "keyPeople": [
+        "Mother Seli",
+        "Daro Ashmark",
+        "Keth Ashmark"
+      ],
+      "lens": "unknown",
+      "notes": "",
+      "npcIds": [
+        "mother-seli",
+        "daro-ashmark",
+        "keth-ashmark"
+      ],
+      "parentId": "the-ashmarked",
+      "risks": [],
+      "sourcePath": "continuity/npc-faction-dossier.md",
+      "summary": "",
+      "tier": "group",
+      "why": []
+    },
+    {
+      "id": "cerres-leadership",
+      "name": "Cerres Leadership",
+      "aliases": [
+        "Cerres Leadership"
+      ],
+      "childIds": [],
+      "keyPeople": [],
+      "lens": "unknown",
+      "notes": "",
+      "npcIds": [],
+      "parentId": "cerres",
+      "risks": [],
+      "sourcePath": "continuity/npc-faction-dossier.md",
+      "summary": "Cerres is mysterious and largely unknown",
+      "tier": "group",
+      "why": []
+    },
+    {
+      "id": "clan-bloodwake",
+      "name": "Clan Bloodwake",
+      "aliases": [
+        "Clan Bloodwake"
+      ],
+      "childIds": [],
+      "keyPeople": [
+        "Jarl Vark Bloodwake",
+        "Runa Bloodwake",
+        "Kethra Bloodwake"
+      ],
+      "lens": "bad",
+      "notes": "",
+      "npcIds": [
+        "jarl-vark-bloodwake",
+        "runa-bloodwake",
+        "kethra-bloodwake"
+      ],
+      "parentId": "red-reavers",
+      "risks": [],
+      "sourcePath": "continuity/npc-faction-dossier.md",
+      "summary": "infamous raiding clan empowered by the current war",
+      "tier": "family",
+      "why": []
+    },
+    {
+      "id": "clan-frostvein",
+      "name": "Clan Frostvein",
+      "aliases": [
+        "Clan Frostvein"
+      ],
+      "childIds": [],
+      "keyPeople": [
+        "Matriarch Ylva Frostvein",
+        "Rurik Frostvein",
+        "Svenja Frostvein"
+      ],
+      "lens": "ugly",
+      "notes": "",
+      "npcIds": [
+        "matriarch-ylva-frostvein",
+        "rurik-frostvein",
+        "svenja-frostvein"
+      ],
+      "parentId": "red-reavers",
+      "risks": [],
+      "sourcePath": "continuity/npc-faction-dossier.md",
+      "summary": "survival-driven northern clan shaped by winter scarcity and endurance",
+      "tier": "family",
+      "why": []
+    },
+    {
+      "id": "clan-ironhowl",
+      "name": "Clan Ironhowl",
+      "aliases": [
+        "Clan Ironhowl"
+      ],
+      "childIds": [],
+      "keyPeople": [
+        "Jorund Ironhowl",
+        "Helka Ironhowl",
+        "Draven Ironhowl"
+      ],
+      "lens": "ugly",
+      "notes": "",
+      "npcIds": [
+        "jorund-ironhowl",
+        "helka-ironhowl",
+        "draven-ironhowl"
+      ],
+      "parentId": "red-reavers",
+      "risks": [],
+      "sourcePath": "continuity/npc-faction-dossier.md",
+      "summary": "disciplined war clan obeying king and law even through ugly orders",
+      "tier": "family",
+      "why": []
+    },
+    {
+      "id": "clan-ormskar",
+      "name": "Clan Ormskar",
+      "aliases": [
+        "Clan Ormskar"
+      ],
+      "childIds": [],
+      "keyPeople": [
+        "Svala Ormskar",
+        "Toren Ormskar",
+        "Mauk Ormskar"
+      ],
+      "lens": "good",
+      "notes": "",
+      "npcIds": [
+        "svala-ormskar",
+        "toren-ormskar",
+        "mauk-ormskar"
+      ],
+      "parentId": "red-reavers",
+      "risks": [],
+      "sourcePath": "continuity/npc-faction-dossier.md",
+      "summary": "seafaring loyalist clan tied to royal ships, oath, and northern prestige",
+      "tier": "family",
+      "why": []
+    },
+    {
+      "id": "clan-redmaw",
+      "name": "Clan Redmaw",
+      "aliases": [
+        "Clan Redmaw"
+      ],
+      "childIds": [],
+      "keyPeople": [
+        "Hrogg Redmaw",
+        "Skari Redmaw",
+        "Eydis Redmaw"
+      ],
+      "lens": "bad",
+      "notes": "",
+      "npcIds": [
+        "hrogg-redmaw",
+        "skari-redmaw",
+        "eydis-redmaw"
+      ],
+      "parentId": "red-reavers",
+      "risks": [],
+      "sourcePath": "continuity/npc-faction-dossier.md",
+      "summary": "brutal war clan thriving on direct assault and fear",
+      "tier": "family",
+      "why": []
+    },
+    {
+      "id": "clan-skallvyr",
+      "name": "Clan Skallvyr",
+      "aliases": [
+        "Clan Skallvyr"
+      ],
+      "childIds": [],
+      "keyPeople": [
+        "Jarl Hrodan Skallvyr",
+        "Yrsa Skallvyr",
+        "Gorvek Skallvyr"
+      ],
+      "lens": "good",
+      "notes": "",
+      "npcIds": [
+        "jarl-hrodan-skallvyr",
+        "yrsa-skallvyr",
+        "gorvek-skallvyr"
+      ],
+      "parentId": "red-reavers",
+      "risks": [],
+      "sourcePath": "continuity/npc-faction-dossier.md",
+      "summary": "old royalist Vraegari clan bound closely to the king's bloodline",
+      "tier": "family",
+      "why": []
+    },
+    {
+      "id": "everthrone-court",
+      "name": "Everthrone court",
+      "aliases": [
+        "Everthrone court"
+      ],
+      "childIds": [],
+      "keyPeople": [
+        "Queen Rosamund Vaelor"
+      ],
+      "lens": "unknown",
+      "notes": "",
+      "npcIds": [
+        "queen-rosamund-vaelor"
+      ],
+      "parentId": "everthrone",
+      "risks": [],
+      "sourcePath": "continuity/npc-faction-dossier.md",
+      "summary": "",
+      "tier": "group",
+      "why": []
+    },
+    {
+      "id": "harvest-festival-troupes",
+      "name": "Harvest Festival Troupes",
+      "aliases": [
+        "Harvest Festival Troupes"
+      ],
+      "childIds": [],
+      "keyPeople": [
+        "Bran Underleaf",
+        "Sir Edric Vance",
+        "Kael \"Inkhand\" Sablemark"
+      ],
+      "lens": "unknown",
+      "notes": "",
+      "npcIds": [
+        "bran-underleaf",
+        "sir-edric-vance",
+        "kael-inkhand-sablemark"
+      ],
+      "parentId": "everthrone",
+      "risks": [],
+      "sourcePath": "continuity/npc-faction-dossier.md",
+      "summary": "",
+      "tier": "group",
+      "why": []
+    },
+    {
+      "id": "house-aerlyn",
+      "name": "House Aerlyn",
+      "aliases": [
+        "House Aerlyn"
+      ],
+      "childIds": [],
+      "keyPeople": [
+        "Lady Yselle Aerlyn",
+        "Ser Roland Aerlyn",
+        "Tovin Aerlyn"
+      ],
+      "lens": "good",
+      "notes": "martial service, patrol duty, and border-minded realism",
+      "npcIds": [
+        "lady-yselle-aerlyn",
+        "ser-roland-aerlyn",
+        "tovin-aerlyn"
+      ],
+      "parentId": "everthrone",
+      "risks": [],
+      "sourcePath": "continuity/npc-faction-dossier.md",
+      "summary": "knightly loyalist family tied to roads, levies, and practical defense",
+      "tier": "family",
+      "why": []
+    },
+    {
+      "id": "house-auvareth",
+      "name": "House Auvareth",
+      "aliases": [
+        "House Auvareth"
+      ],
+      "childIds": [],
+      "keyPeople": [
+        "Lady Ilyra Auvareth",
+        "Lord Serik Auvareth",
+        "Caelen Auvareth"
+      ],
+      "lens": "good",
+      "notes": "duty, continuity, and mountain honor",
+      "npcIds": [
+        "lady-ilyra-auvareth",
+        "lord-serik-auvareth",
+        "caelen-auvareth"
+      ],
+      "parentId": "zephandor",
+      "risks": [],
+      "sourcePath": "continuity/npc-faction-dossier.md",
+      "summary": "ancient oath-bound Zephandorian house tied to crown legitimacy and sacred obligation",
+      "tier": "family",
+      "why": []
+    },
+    {
+      "id": "house-caerwyn",
+      "name": "House Caerwyn",
+      "aliases": [
+        "House Caerwyn"
+      ],
+      "childIds": [],
+      "keyPeople": [
+        "Magistrate Elsed Caerwyn",
+        "Veren Caerwyn",
+        "Mira Caerwyn"
+      ],
+      "lens": "good",
+      "notes": "process, legitimacy, and institutional memory",
+      "npcIds": [
+        "magistrate-elsed-caerwyn",
+        "veren-caerwyn",
+        "mira-caerwyn"
+      ],
+      "parentId": "zephandor",
+      "risks": [],
+      "sourcePath": "continuity/npc-faction-dossier.md",
+      "summary": "treaty and records house tied to judges, law, and administrative order",
+      "tier": "family",
+      "why": []
+    },
+    {
+      "id": "house-draevor",
+      "name": "House Draevor",
+      "aliases": [
+        "House Draevor"
+      ],
+      "childIds": [],
+      "keyPeople": [
+        "General Varos Draevor",
+        "Lady Thessia Draevor",
+        "Kalen Draevor"
+      ],
+      "lens": "bad",
+      "notes": "military prestige, grief, and retaliatory strength",
+      "npcIds": [
+        "general-varos-draevor",
+        "lady-thessia-draevor",
+        "kalen-draevor"
+      ],
+      "parentId": "zephandor",
+      "risks": [],
+      "sourcePath": "continuity/npc-faction-dossier.md",
+      "summary": "martial Zephandorian house carrying much of the dead prince's honor culture",
+      "tier": "family",
+      "why": []
+    },
+    {
+      "id": "house-kharvos",
+      "name": "House Kharvos",
+      "aliases": [
+        "House Kharvos"
+      ],
+      "childIds": [],
+      "keyPeople": [
+        "Merek Kharvos",
+        "Lysa Kharvos",
+        "Cadran Kharvos"
+      ],
+      "lens": "good",
+      "notes": "expansion, access, and competitive trade without inherited monopoly",
+      "npcIds": [
+        "merek-kharvos",
+        "lysa-kharvos",
+        "cadran-kharvos"
+      ],
+      "parentId": "vaelport",
+      "risks": [],
+      "sourcePath": "continuity/npc-faction-dossier.md",
+      "summary": "rising merchant house that wants to thrive alongside the liveship traders",
+      "tier": "family",
+      "why": []
+    },
+    {
+      "id": "house-marinel",
+      "name": "House Marinel",
+      "aliases": [
+        "House Marinel"
+      ],
+      "childIds": [],
+      "keyPeople": [
+        "Lady Cerys Marinel",
+        "Vaelessa",
+        "Toman Marinel"
+      ],
+      "lens": "good",
+      "notes": "open lanes, fair rivalry, and stewardship-minded commerce",
+      "npcIds": [
+        "lady-cerys-marinel",
+        "vaelessa",
+        "toman-marinel"
+      ],
+      "parentId": "vaelport",
+      "risks": [],
+      "sourcePath": "continuity/npc-faction-dossier.md",
+      "summary": "old liveship trading house that wants strong trade without strangling competition",
+      "tier": "family",
+      "why": []
+    },
+    {
+      "id": "house-marovant",
+      "name": "House Marovant",
+      "aliases": [
+        "House Marovant"
+      ],
+      "childIds": [],
+      "keyPeople": [
+        "Lord Hadrien Marovant",
+        "Lady Aurette Marovant",
+        "Julen Marovant"
+      ],
+      "lens": "bad",
+      "notes": "marriages, spectacle, and dynastic image",
+      "npcIds": [
+        "lord-hadrien-marovant",
+        "lady-aurette-marovant",
+        "julen-marovant"
+      ],
+      "parentId": "everthrone",
+      "risks": [],
+      "sourcePath": "continuity/npc-faction-dossier.md",
+      "summary": "prestige-driven queen-allied ceremonial house",
+      "tier": "family",
+      "why": []
+    },
+    {
+      "id": "house-morvain",
+      "name": "House Morvain",
+      "aliases": [
+        "House Morvain"
+      ],
+      "childIds": [],
+      "keyPeople": [
+        "Lord Ossian Morvain",
+        "Lady Senra Morvain",
+        "Tavian Morvain"
+      ],
+      "lens": "bad",
+      "notes": "retaliatory purity, status, and public displays of strength",
+      "npcIds": [
+        "lord-ossian-morvain",
+        "lady-senra-morvain",
+        "tavian-morvain"
+      ],
+      "parentId": "zephandor",
+      "risks": [],
+      "sourcePath": "continuity/npc-faction-dossier.md",
+      "summary": "highland prestige house feeding on outrage after the prince's death",
+      "tier": "family",
+      "why": []
+    },
+    {
+      "id": "house-rhalmere",
+      "name": "House Rhalmere",
+      "aliases": [
+        "House Rhalmere"
+      ],
+      "childIds": [],
+      "keyPeople": [
+        "Captain Iven Rhalmere",
+        "Dena Rhalmere",
+        "Merovyx",
+        "Varik Rhalmere"
+      ],
+      "lens": "ugly",
+      "notes": "fragile legitimacy, hidden fear, and dangerous maritime mystery",
+      "npcIds": [
+        "captain-iven-rhalmere",
+        "dena-rhalmere",
+        "merovyx",
+        "varik-rhalmere"
+      ],
+      "parentId": "vaelport",
+      "risks": [],
+      "sourcePath": "continuity/npc-faction-dossier.md",
+      "summary": "old trader house bound to an unstable liveship",
+      "tier": "family",
+      "why": []
+    },
+    {
+      "id": "house-selverin",
+      "name": "House Selverin",
+      "aliases": [
+        "House Selverin"
+      ],
+      "childIds": [],
+      "keyPeople": [
+        "Lady Mereth Selverin",
+        "Jonel Selverin",
+        "Rusk Selverin"
+      ],
+      "lens": "mixed",
+      "notes": "information control, practical leverage, and unseen influence",
+      "npcIds": [
+        "lady-mereth-selverin",
+        "jonel-selverin",
+        "rusk-selverin"
+      ],
+      "parentId": "zephandor",
+      "risks": [],
+      "sourcePath": "continuity/npc-faction-dossier.md",
+      "summary": "quiet logistics and intelligence house moving messages, supplies, and secrets",
+      "tier": "family",
+      "why": []
+    },
+    {
+      "id": "house-serrat",
+      "name": "House Serrat",
+      "aliases": [
+        "House Serrat"
+      ],
+      "childIds": [],
+      "keyPeople": [
+        "Matriarch Veyna Serrat",
+        "Alden Serrat",
+        "Vaso Serrat"
+      ],
+      "lens": "mixed",
+      "notes": "money first, loyalty second, morality distant third",
+      "npcIds": [
+        "matriarch-veyna-serrat",
+        "alden-serrat",
+        "vaso-serrat"
+      ],
+      "parentId": "everthrone",
+      "risks": [],
+      "sourcePath": "continuity/npc-faction-dossier.md",
+      "summary": "trade-rich opportunist house controlling supply, contracts, and caravans",
+      "tier": "family",
+      "why": []
+    },
+    {
+      "id": "house-tarrowen",
+      "name": "House Tarrowen",
+      "aliases": [
+        "House Tarrowen"
+      ],
+      "childIds": [],
+      "keyPeople": [
+        "Warden Halric Tarrowen",
+        "Eda Tarrowen",
+        "Brann Tarrowen"
+      ],
+      "lens": "mixed",
+      "notes": "survival, readiness, and practical defense",
+      "npcIds": [
+        "warden-halric-tarrowen",
+        "eda-tarrowen",
+        "brann-tarrowen"
+      ],
+      "parentId": "zephandor",
+      "risks": [],
+      "sourcePath": "continuity/npc-faction-dossier.md",
+      "summary": "border-watch house of passes, scouts, and hard frontier choices",
+      "tier": "family",
+      "why": []
+    },
+    {
+      "id": "house-thalrix",
+      "name": "House Thalrix",
+      "aliases": [
+        "House Thalrix"
+      ],
+      "childIds": [],
+      "keyPeople": [
+        "Lady Vezza Thalrix",
+        "Rul Thalrix",
+        "Edrin Thalrix"
+      ],
+      "lens": "bad",
+      "notes": "displacement, intimidation, and modern power stripped of sentiment",
+      "npcIds": [
+        "lady-vezza-thalrix",
+        "rul-thalrix",
+        "edrin-thalrix"
+      ],
+      "parentId": "vaelport",
+      "risks": [],
+      "sourcePath": "continuity/npc-faction-dossier.md",
+      "summary": "dominant merchant house that wants to replace the liveship traders entirely",
+      "tier": "family",
+      "why": []
+    },
+    {
+      "id": "house-thorne",
+      "name": "House Thorne",
+      "aliases": [
+        "House Thorne"
+      ],
+      "childIds": [],
+      "keyPeople": [
+        "Lady Sabine Thorne",
+        "Maren Thorne",
+        "Rhett Thorne"
+      ],
+      "lens": "mixed",
+      "notes": "bureaucratic survival, careful placement, and calculated ambiguity",
+      "npcIds": [
+        "lady-sabine-thorne",
+        "maren-thorne",
+        "rhett-thorne"
+      ],
+      "parentId": "everthrone",
+      "risks": [],
+      "sourcePath": "continuity/npc-faction-dossier.md",
+      "summary": "minor noble family surviving through offices, marriages, and information flow",
+      "tier": "family",
+      "why": []
+    },
+    {
+      "id": "house-valemere",
+      "name": "House Valemere",
+      "aliases": [
+        "House Valemere"
+      ],
+      "childIds": [],
+      "keyPeople": [
+        "Lord Bennard Valemere",
+        "Lady Talia Valemere",
+        "Lucan Valemere"
+      ],
+      "lens": "good",
+      "notes": "grain, stores, logistics, household continuity",
+      "npcIds": [
+        "lord-bennard-valemere",
+        "lady-talia-valemere",
+        "lucan-valemere"
+      ],
+      "parentId": "everthrone",
+      "risks": [],
+      "sourcePath": "continuity/npc-faction-dossier.md",
+      "summary": "old-guard steward family inside the king's loyalist bloc",
+      "tier": "family",
+      "why": []
+    },
+    {
+      "id": "house-vaylen",
+      "name": "House Vaylen",
+      "aliases": [
+        "House Vaylen"
+      ],
+      "childIds": [],
+      "keyPeople": [
+        "Master Oren Vaylen",
+        "Sera Vaylen",
+        "Oryndral"
+      ],
+      "lens": "bad",
+      "notes": "monopoly, inherited right, and aristocracy at sea",
+      "npcIds": [
+        "master-oren-vaylen",
+        "sera-vaylen",
+        "oryndral"
+      ],
+      "parentId": "vaelport",
+      "risks": [],
+      "sourcePath": "continuity/npc-faction-dossier.md",
+      "summary": "old liveship house that believes maritime rule belongs only to liveship bloodlines",
+      "tier": "family",
+      "why": []
+    },
+    {
+      "id": "house-vescaro",
+      "name": "House Vescaro",
+      "aliases": [
+        "House Vescaro"
+      ],
+      "childIds": [],
+      "keyPeople": [
+        "Nalia Vescaro",
+        "Perrin Vescaro",
+        "Jast Vescaro"
+      ],
+      "lens": "ugly",
+      "notes": "comfort bought through compromise",
+      "npcIds": [
+        "nalia-vescaro",
+        "perrin-vescaro",
+        "jast-vescaro"
+      ],
+      "parentId": "vaelport",
+      "risks": [],
+      "sourcePath": "continuity/npc-faction-dossier.md",
+      "summary": "merchant family currently thriving on Thraxios routes and slave-backed wealth",
+      "tier": "family",
+      "why": []
+    },
+    {
+      "id": "house-vossaryn",
+      "name": "House Vossaryn",
+      "aliases": [
+        "House Vossaryn"
+      ],
+      "childIds": [],
+      "keyPeople": [
+        "Lady Ysoria Vossaryn",
+        "Lord Orren Vossaryn",
+        "Seline Vossaryn"
+      ],
+      "lens": "bad",
+      "notes": "patronage, exclusions, debts, and social warfare",
+      "npcIds": [
+        "lady-ysoria-vossaryn",
+        "lord-orren-vossaryn",
+        "seline-vossaryn"
+      ],
+      "parentId": "everthrone",
+      "risks": [],
+      "sourcePath": "continuity/npc-faction-dossier.md",
+      "summary": "queen-aligned enforcer family inside the bad court bloc",
+      "tier": "family",
+      "why": []
+    },
+    {
+      "id": "iron-ink",
+      "name": "Iron Ink",
+      "aliases": [
+        "Iron Ink"
+      ],
+      "childIds": [],
+      "keyPeople": [
+        "Ressa Iron-Ink",
+        "Toren Iron-Ink",
+        "Mila Iron-Ink"
+      ],
+      "lens": "unknown",
+      "notes": "",
+      "npcIds": [
+        "ressa-iron-ink",
+        "toren-iron-ink",
+        "mila-iron-ink"
+      ],
+      "parentId": "the-iron-ink",
+      "risks": [],
+      "sourcePath": "continuity/npc-faction-dossier.md",
+      "summary": "",
+      "tier": "group",
+      "why": []
+    },
+    {
+      "id": "king-s-assassins",
+      "name": "king's assassins",
+      "aliases": [
+        "king's assassins"
+      ],
+      "childIds": [],
+      "keyPeople": [
+        "Nyx",
+        "Silas Vey",
+        "Nico Vale"
+      ],
+      "lens": "unknown",
+      "notes": "",
+      "npcIds": [
+        "nyx",
+        "silas-vey",
+        "nico-vale"
+      ],
+      "parentId": "the-corterie",
+      "risks": [],
+      "sourcePath": "continuity/npc-faction-dossier.md",
+      "summary": "",
+      "tier": "group",
+      "why": []
+    },
+    {
+      "id": "magicians",
+      "name": "magicians",
+      "aliases": [
+        "magicians"
+      ],
+      "childIds": [],
+      "keyPeople": [
+        "Wilhye Pycey - Head Magician",
+        "Kristopher",
+        "George Hammyth",
+        "Tiny Cote",
+        "Elys Merdye"
+      ],
+      "lens": "unknown",
+      "notes": "",
+      "npcIds": [
+        "wilhye-pycey-head-magician",
+        "kristopher",
+        "george-hammyth",
+        "tiny-cote",
+        "elys-merdye"
+      ],
+      "parentId": "everthrone",
+      "risks": [],
+      "sourcePath": "continuity/npc-faction-dossier.md",
+      "summary": "",
+      "tier": "group",
+      "why": []
+    },
+    {
+      "id": "piebalds",
+      "name": "Piebalds",
+      "aliases": [
+        "Piebalds"
+      ],
+      "childIds": [],
+      "keyPeople": [
+        "Vivacia",
+        "Everett",
+        "King Of The Pirates"
+      ],
+      "lens": "unknown",
+      "notes": "",
+      "npcIds": [
+        "vivacia",
+        "everett",
+        "king-of-the-pirates"
+      ],
+      "parentId": "cerres",
+      "risks": [],
+      "sourcePath": "continuity/npc-faction-dossier.md",
+      "summary": "hidden nomadic group tied to beast magic",
+      "tier": "group",
+      "why": []
+    },
+    {
+      "id": "red-reavers",
+      "name": "Red Reavers",
+      "aliases": [
+        "Red Reavers"
+      ],
+      "childIds": [
+        "clan-bloodwake",
+        "clan-frostvein",
+        "clan-ironhowl",
+        "clan-ormskar",
+        "clan-redmaw",
+        "clan-skallvyr"
+      ],
+      "keyPeople": [
+        "Jarl Vark Bloodwake",
+        "Runa Bloodwake",
+        "Kethra Bloodwake",
+        "Matriarch Ylva Frostvein",
+        "Rurik Frostvein",
+        "Svenja Frostvein",
+        "Jorund Ironhowl",
+        "Helka Ironhowl",
+        "Draven Ironhowl",
+        "Svala Ormskar",
+        "Toren Ormskar",
+        "Mauk Ormskar",
+        "Hrogg Redmaw",
+        "Skari Redmaw",
+        "Eydis Redmaw",
+        "Jarl Hrodan Skallvyr",
+        "Yrsa Skallvyr",
+        "Gorvek Skallvyr"
+      ],
+      "lens": "unknown",
+      "notes": "",
+      "npcIds": [
+        "jarl-vark-bloodwake",
+        "runa-bloodwake",
+        "kethra-bloodwake",
+        "matriarch-ylva-frostvein",
+        "rurik-frostvein",
+        "svenja-frostvein",
+        "jorund-ironhowl",
+        "helka-ironhowl",
+        "draven-ironhowl",
+        "svala-ormskar",
+        "toren-ormskar",
+        "mauk-ormskar",
+        "hrogg-redmaw",
+        "skari-redmaw",
+        "eydis-redmaw",
+        "jarl-hrodan-skallvyr",
+        "yrsa-skallvyr",
+        "gorvek-skallvyr"
+      ],
+      "parentId": "cerres",
+      "risks": [],
+      "sourcePath": "continuity/npc-faction-dossier.md",
+      "summary": "northern raiding threat faced by Everthrone",
+      "tier": "faction",
+      "why": []
+    },
+    {
+      "id": "saltbound",
+      "name": "Saltbound",
+      "aliases": [
+        "Saltbound"
+      ],
+      "childIds": [],
+      "keyPeople": [
+        "Old Nerin Saltbound",
+        "Pela Saltbound",
+        "Hask Saltbound"
+      ],
+      "lens": "unknown",
+      "notes": "",
+      "npcIds": [
+        "old-nerin-saltbound",
+        "pela-saltbound",
+        "hask-saltbound"
+      ],
+      "parentId": "the-saltbound",
+      "risks": [],
+      "sourcePath": "continuity/npc-faction-dossier.md",
+      "summary": "",
+      "tier": "group",
+      "why": []
+    },
+    {
+      "id": "the-ashmarked",
+      "name": "The Ashmarked",
+      "aliases": [
+        "Ashmarked"
+      ],
+      "childIds": [
+        "ashmarked"
+      ],
+      "keyPeople": [
+        "Mother Seli",
+        "Daro Ashmark",
+        "Keth Ashmark"
+      ],
+      "lens": "good",
+      "notes": "",
+      "npcIds": [
+        "mother-seli",
+        "daro-ashmark",
+        "keth-ashmark"
+      ],
+      "parentId": "vaelport",
+      "risks": [],
+      "sourcePath": "continuity/npc-faction-dossier.md",
+      "summary": "mutual-aid and liberation-focused cell within the Tattooed",
+      "tier": "group",
+      "why": []
+    },
+    {
+      "id": "the-corterie",
+      "name": "The Corterie",
+      "aliases": [
+        "Corterie"
+      ],
+      "childIds": [
+        "king-s-assassins"
+      ],
+      "keyPeople": [
+        "Wylliam",
+        "Ames",
+        "Ardin",
+        "Advisor Nellis Corwin",
+        "Wylla",
+        "Silas Vey",
+        "Nico Vale",
+        "Elys Merdye",
+        "Tiny Cote",
+        "Nyx"
+      ],
+      "lens": "unknown",
+      "notes": "searching for the gem containing the trapped essence of the sorcerer who created the pocket dimension | the Corterie are not morally uniform, even if the group currently functions as a dangerous rival cell",
+      "npcIds": [
+        "wylliam",
+        "ames",
+        "ardin",
+        "advisor-nellis-corwin",
+        "wylla",
+        "silas-vey",
+        "nico-vale",
+        "elys-merdye",
+        "tiny-cote",
+        "nyx"
+      ],
+      "parentId": "everthrone",
+      "risks": [],
+      "sourcePath": "continuity/npc-faction-dossier.md",
+      "summary": "rival magical group",
+      "tier": "group",
+      "why": []
+    },
+    {
+      "id": "the-iron-ink",
+      "name": "The Iron Ink",
+      "aliases": [
+        "Iron Ink"
+      ],
+      "childIds": [
+        "iron-ink"
+      ],
+      "keyPeople": [
+        "Ressa Iron-Ink",
+        "Toren Iron-Ink",
+        "Mila Iron-Ink"
+      ],
+      "lens": "bad",
+      "notes": "",
+      "npcIds": [
+        "ressa-iron-ink",
+        "toren-iron-ink",
+        "mila-iron-ink"
+      ],
+      "parentId": "vaelport",
+      "risks": [],
+      "sourcePath": "continuity/npc-faction-dossier.md",
+      "summary": "militant Tattooed cell that believes slavers should die",
+      "tier": "group",
+      "why": []
+    },
+    {
+      "id": "the-saltbound",
+      "name": "The Saltbound",
+      "aliases": [
+        "Saltbound"
+      ],
+      "childIds": [
+        "saltbound"
+      ],
+      "keyPeople": [
+        "Old Nerin Saltbound",
+        "Pela Saltbound",
+        "Hask Saltbound"
+      ],
+      "lens": "ugly",
+      "notes": "",
+      "npcIds": [
+        "old-nerin-saltbound",
+        "pela-saltbound",
+        "hask-saltbound"
+      ],
+      "parentId": "vaelport",
+      "risks": [],
+      "sourcePath": "continuity/npc-faction-dossier.md",
+      "summary": "dockside Tattooed network that mostly wants to survive and be left alone",
+      "tier": "group",
+      "why": []
+    },
+    {
+      "id": "the-tattooed",
+      "name": "The Tattooed",
+      "aliases": [
+        "Tattooed"
+      ],
+      "childIds": [],
+      "keyPeople": [],
+      "lens": "ugly",
+      "notes": "memory, survival, anger, and the struggle over what freedom now demands",
+      "npcIds": [],
+      "parentId": "vaelport",
+      "risks": [],
+      "sourcePath": "continuity/npc-faction-dossier.md",
+      "summary": "community of former slaves who built a hard refuge inside Vaelport",
+      "tier": "group",
+      "why": []
+    }
+  ]
+}

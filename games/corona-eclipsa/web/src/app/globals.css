@@ -18,10 +18,14 @@
 
 html {
   scroll-behavior: smooth;
+  height: 100%;
+  overflow: hidden;
 }
 
 body {
+  height: 100%;
   margin: 0;
+  overflow: hidden;
   background: var(--background);
   color: var(--foreground);
   font-family: var(--font-sans);

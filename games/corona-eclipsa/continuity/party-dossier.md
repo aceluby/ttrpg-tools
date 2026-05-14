@@ -1,6 +1,6 @@
 # Party Dossier
 
-Last updated: 2026-03-13
+Last updated: 2026-05-10
 
 This file captures stable, reusable character continuity for the current player party.
 
@@ -28,6 +28,8 @@ This file captures stable, reusable character continuity for the current player 
   - grew up homeless
   - has no real family
   - once had a father figure in the Vaelport thieves' guild
+- Current pull south:
+  - returning to `Vaelport` means returning to old criminal ties he never cleanly resolved
 - Vice or pressure point:
   - steals because he genuinely loves stealing
 - Party ties:
@@ -89,6 +91,9 @@ This file captures stable, reusable character continuity for the current player 
   - remembers his father as loving but hard
   - does not know whether his father abandoned him, was taken, or died
   - assumes his mother is dead, but that is not actually certain
+- Current family lead:
+  - `Bernard` has sent a letter from near `Vaelport`
+  - he is searching dangerous caves for clues about `Matilda`
 - Background notes:
   - was raised in the wilderness by `Bernard` after fleeing `Everthrone`
   - was trained young in discipline, tactics, and survival like a soldier
@@ -105,6 +110,8 @@ This file captures stable, reusable character continuity for the current player 
   - dragonbloods were dragon keepers before they went extinct
   - Dax is destined to become a dragon rider
   - he would embrace that destiny if confirmed
+  - his upgraded dragon amulet now grants a mount with limited flight that cannot remain airborne at the end of its
+    turn
 - Institutional mistrust:
   - deeply suspicious of nobility, religion, and institutions that cast him out
 - Emotional triggers:
@@ -149,6 +156,8 @@ This file captures stable, reusable character continuity for the current player 
 - Long-term arc:
   - slavery remains widespread in the south
   - he may eventually have a chance to strike against it
+- Southern pull:
+  - the return to `Vaelport` should bring his slavery past and monastic ties into the same space
 - Open continuity questions:
   - what he would do if a major anti-slavery opportunity conflicted with the party's immediate goal
 
@@ -192,6 +201,8 @@ This file captures stable, reusable character continuity for the current player 
   - if he learned the party was the `Catalyst`, he would tell them
 - Soft spot:
   - attractive women get past his social armor most easily
+- Current complication:
+  - an old fling in `Vaelport` is now in trouble with the thieves' guild
 - Emotional trigger:
   - public embarrassment can break his confidence
 - Arc hook:

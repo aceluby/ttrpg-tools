@@ -1,6 +1,6 @@
 # NPC And Faction Dossier
 
-Last updated: 2026-03-15
+Last updated: 2026-05-13
 
 This file captures recurring NPCs, factions, loyalties, and hidden motives.
 
@@ -867,6 +867,116 @@ This file captures recurring NPCs, factions, loyalties, and hidden motives.
   - secretly the bastard son of `Dorian`
 - Faction lens:
   - `Good` within the magicians
+
+## Luceran Pyrel
+
+- Role:
+  - ancient trapped wizard
+  - manipulative magical adviser bound into an artifact
+- Public face:
+  - charming
+  - witty
+  - polished enough to sound helpful before he sounds dangerous
+- Physical or behavioral trait:
+  - has no body of his own, but his voice arrives like someone smiling just behind the listener's thoughts
+- Current state:
+  - trapped within the artifact now bound to `Marcel`
+  - cannot be willingly set aside by `Marcel` for long once the bond settles in
+  - has now successfully taken control of `Marcel`'s body after the possession backlash fully triggered
+- Immediate value:
+  - can help `Marcel` heighten a spell while spending a lower-rank spell slot
+- Core motive:
+  - remain close to power
+  - become useful before he becomes feared
+  - slowly turn dependence into loyalty
+  - make the possession of `Marcel` permanent before the vessel degrades or `Marcel` reasserts himself
+- Hidden truth:
+  - he is hundreds of years old
+  - he is tied to the old pocket-dimension disaster
+  - he should not be trusted simply because he is useful
+  - he believes a `dragon-keeper soulforge` near `Vaelport` can permanently anchor his soul into `Marcel`'s body
+- True name:
+  - `Luceran Pyrel`
+- Party relevance:
+  - direct magical temptation aimed at `Marcel`
+  - possible source of real arcane knowledge about `weave`, ancient magic, and older catastrophes
+  - immediate driver of a possession crisis that can pull the party straight from landfall into the caves and old
+    dragon-keeper history near `Vaelport`
+- Faction lens:
+  - `Ugly` within the magicians
+- Open questions:
+  - whether he trapped himself by arrogance, desperation, or betrayal
+  - what he ultimately wants from `Marcel` besides freedom, influence, and a stable living vessel
+
+## Bernard Wraxor
+
+- Role:
+  - former `Everthrone` general
+  - exiled father of `Dax`
+  - hard-bitten hunter chasing one last impossible lead
+- Public face:
+  - disciplined
+  - exhausted
+  - slow to trust anyone who sounds optimistic
+- Physical or behavioral trait:
+  - keeps his shoulders squared even when limping and rubs at old scar tissue in his sword hand when forcing down anger
+- Core motive:
+  - protect `Dax` however late and imperfectly
+  - find `Matilda Wraxor`
+  - learn whether the truth about his family can still be survived
+- Hidden truth:
+  - he knows `Matilda` did not die giving birth to `Dax`
+  - he saved `Dax` after `Matilda` tried to give the visibly dragon-marked infant away to the wild rather than raise
+    him
+  - when Bernard returned with the child, `Matilda` was gone
+- Party relevance:
+  - his letter is what drew the party south toward `Vaelport`
+  - he has been following `Matilda`'s trail toward the coast and the old caves for reasons he cannot safely put in
+    writing
+- Faction lens:
+  - `Ugly` within the soldiers
+- Open questions:
+  - how much he will admit to `Dax` about `Matilda`'s attempt to abandon him
+  - whether he wants reunion, answers, or simply an end to the damage
+
+## Matilda Wraxor
+
+- Role:
+  - `Dax`'s mother
+  - former `Carvasean` slave with hidden draconic lineage tied to `Mirage`
+  - unstable seeker of lost dragon-keeper restoration
+- Public face:
+  - guarded
+  - cold when cornered
+  - intensely self-possessed right up until the moment she is not
+- Physical or behavioral trait:
+  - goes still before difficult lies and touches the inside of one wrist when dragon-linked magic is nearby
+- Core motive:
+  - restore the missing part of her soul
+  - keep anyone else from defining what her bloodline means
+  - reach the `dragon-keeper soulforge` before someone more dangerous does
+- Hidden truth:
+  - she did not die in childbirth
+  - Dax's visible dragon traits horrified her and sharpened an old conflict with `Bernard` over whether the child
+    should be hidden, surrendered, or raised
+  - she tried to give Dax away to the wild
+  - Bernard stopped her, and she vanished before the family could be repaired or confronted
+  - after leaving, she spent years trying to burn the dragon out of herself through alchemy, ritual, and false
+    purification
+  - those attempts damaged or stripped away part of her soul, memory, and emotional capacity
+  - she has returned near `Vaelport` because the `dragon-keeper soulforge` may be the only place capable of restoring
+    what she broke
+- Party relevance:
+  - direct emotional center of `Dax`'s southern arc
+  - possible mirror to `Marcel`, since both are now caught in battles over identity, selfhood, and who gets to remain
+    inside a body
+  - unknowingly carries exactly the kind of soul-restoration secret `Luceran Pyrel` wants to exploit
+- Faction lens:
+  - `Ugly` within the dragonblood legacy
+- Open questions:
+  - whether she wants forgiveness, secrecy, power, or simple survival
+  - what part of herself she thinks the `soulforge` can restore
+  - how much of her old self would return if the restoration succeeded
 
 ## Marcel
 
@@ -1812,6 +1922,79 @@ This file captures recurring NPCs, factions, loyalties, and hidden motives.
 - Faction lens:
   - `Ugly` within House `Rhalmere`
 
+## Paragon
+
+- Role:
+  - `liveship` currently carrying the party toward `Vaelport`
+- Public face:
+  - watchful
+  - intimate
+  - visibly unstable to anyone who spends long aboard
+- Physical or behavioral trait:
+  - changes tone mid-thought as if another mind has seized the sentence
+- Hidden truth:
+  - carries two dragon souls within one hull
+  - one is comparatively calm and relational
+  - the other is violent, invasive, and eager to pry at weakness
+- Public reputation:
+  - considered cursed in `Vaelport`
+  - known as a wrecked ship only recently restored to sailing condition
+- Associated figures:
+  - `Althea Vestrin`
+  - `Paragon`'s first mate
+- Core motive:
+  - impossible to calm by command alone because the ship reacts to emotional truth as much as seamanship
+- Current campaign use:
+  - immediate bridge into the party's `Vaelport` arc
+  - can surface leads about `Harlan`, `Dax`, `Jin`, and `Marcel` before the harbor scenes begin
+  - may wail about being cursed when the unstable soul takes hold
+
+## Althea Vestrin
+
+- Role:
+  - captain of `Paragon`
+- Age:
+  - 28
+- Public face:
+  - direct
+  - capable
+  - visibly careful around her ship
+- Physical or behavioral trait:
+  - gives orders in clipped sentences, then softens immediately when `Paragon` stirs
+- Background:
+  - daughter of `Everett Vestrin`, the late captain of `Vivacia`
+  - has been sailing ships since she was 5
+  - spent the last several months getting `Paragon` back into sailing shape after the shipwreck
+- Family conflict:
+  - recently fought with her father after learning `Vivacia` would not pass to her
+  - took it personally when the ship was instead meant for her older sister and brother-in-law
+  - left after that break rather than stay and accept it
+- Blind spot:
+  - does not know `Vivacia` has been taken
+  - does not know `Everett Vestrin` is dead
+- Core motive:
+  - keep `Paragon` viable because the ship is her only real path to captaincy
+
+## Marek Flint
+
+- Role:
+  - `Paragon`'s first mate and senior practical hand
+- Public face:
+  - grizzled
+  - patient
+  - harder to rattle than he looks
+- Physical or behavioral trait:
+  - stands about 6'3\" and moves with the calm economy of someone who has spent decades on wet decks
+- Background:
+  - around 50 years old
+  - formerly served aboard `Vivacia`
+  - left with `Althea Vestrin` and was privately ordered by `Everett Vestrin` to watch over her
+- Hidden dynamic:
+  - sleeping with `Althea Vestrin`
+  - expects to be paid by `Everett Vestrin` the next time they meet and does not yet know that meeting will never happen
+- Core motive:
+  - keep `Althea Vestrin` alive, `Paragon` moving, and the ugly truth about his divided loyalties manageable
+
 ## House Kharvos
 
 - Role:
@@ -2199,9 +2382,9 @@ This file captures recurring NPCs, factions, loyalties, and hidden motives.
 - Personality or vibe:
   - mother hen
 - Associated figure:
-  - captain `Everett`
+  - captain `Everett Vestrin`
 
-## Everett
+## Everett Vestrin
 
 - Role: captain associated with `Vivacia`
 - Status:
@@ -2210,15 +2393,17 @@ This file captures recurring NPCs, factions, loyalties, and hidden motives.
   - gruff old man
 - Dynamic:
   - bullied by `Vivacia`
+- Family tie:
+  - father of `Althea Vestrin`
 - Open details:
   - broader personality
   - loyalties
   - current relevance to the campaign
 
-## Kyle
+## Kyle Vestrin
 
 - Role:
-  - quiet young man tied to `Vaelport`
+  - son of `Althea Vestrin`'s older sister and brother-in-law, now tied to the succession fight around `Vivacia`
 - Physical or behavioral trait:
   - rarely makes eye contact
 

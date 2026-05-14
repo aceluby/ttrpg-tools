@@ -2,6 +2,8 @@
 
 import { type ReactNode } from "react";
 
+import { AtmosphereHeaderControls } from "@/components/atmosphere-header-controls";
+import { Pf2eActionMenu } from "@/components/pf2e-action-menu";
 import { SearchPopover } from "@/components/search-popover";
 import { SpotifyHeaderControls } from "@/components/spotify-header-controls";
 
@@ -21,7 +23,7 @@ export function AppPanelHeader({
   title,
 }: AppPanelHeaderProps) {
   return (
-    <div className="shrink-0 border-b border-stone-300 bg-stone-100/90 px-6 py-5 backdrop-blur">
+    <div className="relative z-40 shrink-0 border-b border-stone-300 bg-stone-100/90 px-6 py-5 backdrop-blur">
       <div className="flex flex-col gap-4 lg:flex-row lg:items-start lg:justify-between">
         {eyebrow || title || description ? (
           <div className="min-w-0">
@@ -48,7 +50,9 @@ export function AppPanelHeader({
         <div className="flex flex-col gap-3 lg:items-end">
           <div className="flex flex-wrap items-center gap-3">
             <SearchPopover currentFile={currentFile} />
+            <AtmosphereHeaderControls />
             <SpotifyHeaderControls />
+            <Pf2eActionMenu />
           </div>
           {children ? (
             <div className="flex flex-wrap items-center gap-3">

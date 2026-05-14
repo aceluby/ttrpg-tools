@@ -1,6 +1,6 @@
 # Future Hooks
 
-Last updated: 2026-03-16
+Last updated: 2026-05-10
 
 This file captures reusable reveal material, pressure points, and scene hooks for future prep.
 
@@ -17,6 +17,7 @@ This file captures reusable reveal material, pressure points, and scene hooks fo
 - Put valuable, portable objects in front of him when theft would clearly complicate the group's position.
 - Force choices between secrecy and protecting the party.
 - Repeatedly endanger `Nighteyes` to draw out Harlan's emotional truth.
+- Let the `Vaelport` thieves' guild behave as though one of its old assets has finally come back into reach.
 
 ### Scene Types
 
@@ -24,6 +25,7 @@ This file captures reusable reveal material, pressure points, and scene hooks fo
 - An ambush where Harlan acts first to protect everyone.
 - A meeting with a `Piebald` who recognizes the bond immediately.
 - A quiet aftermath scene where `Nighteyes` becomes the bridge to human vulnerability.
+- A dockside scene where someone uses an old guild phrase that proves Harlan has already been noticed.
 
 ### Good Questions To Revisit Later
 
@@ -46,6 +48,7 @@ This file captures reusable reveal material, pressure points, and scene hooks fo
 - Social rejection or exposure of his visible traits.
 - Situations where negotiation is wiser but combat is more emotionally satisfying.
 - Evidence about his father that is incomplete, contradictory, or costly to pursue.
+- Clues that suggest `Matilda`'s fate is stranger and less settled than Dax wants to believe.
 
 ### Scene Types
 
@@ -54,6 +57,7 @@ This file captures reusable reveal material, pressure points, and scene hooks fo
 - A lead tied to `Matilda`'s pendant, old `Carvasean` history, or `Mirage`'s hidden legacy.
 - A dragonblood or dragon-linked NPC who recognizes him for what he is.
 - A battle where intimidation works but carries social fallout.
+- A liveship or serpent memory that hints `Matilda` belongs to a deeper dragon-linked history.
 
 ### Good Questions To Revisit Later
 
@@ -74,6 +78,7 @@ This file captures reusable reveal material, pressure points, and scene hooks fo
 - Encounters with slavery, trafficking, abuse, or abduction.
 - Situations where patience would preserve the plan but delay justice.
 - Moral choices where protecting strangers conflicts with strategic goals.
+- Encounters where religious institutions or respected trade powers knew more than they admitted.
 
 ### Scene Types
 
@@ -81,6 +86,7 @@ This file captures reusable reveal material, pressure points, and scene hooks fo
 - A slaver or collaborator who assumes Jin will be pragmatic.
 - A spiritual encounter that clarifies what `Soryan` expects of his champion.
 - A moment where the party finally sees the anger under his discipline.
+- A harbor or monastery contact who forces Jin to choose between composure and immediate confrontation.
 
 ### Good Questions To Revisit Later
 
@@ -103,6 +109,7 @@ This file captures reusable reveal material, pressure points, and scene hooks fo
 - Dreams that come true in visible, alarming ways.
 - Discoveries about his origin that make his identity feel engineered.
 - Attention from attractive, manipulative, or seemingly understanding women.
+- A former romantic tie in `Vaelport` who is in real trouble and may blur the line between vulnerability and leverage.
 
 ### Scene Types
 
@@ -110,6 +117,7 @@ This file captures reusable reveal material, pressure points, and scene hooks fo
 - A diplomatic scene where Marcel cannot talk his way to control.
 - A confrontation with someone tied to his mother who treats him as an asset.
 - A scene where he must tell the party a truth that changes their view of themselves.
+- A reunion with an old fling where charm, debt, and danger all point in different directions.
 
 ### Good Questions To Revisit Later
 
@@ -176,6 +184,7 @@ This file captures reusable reveal material, pressure points, and scene hooks fo
 
 - The old `liveship` houses are not united; some want open trade, some want monopoly, and some are hiding disasters of their own.
 - `Merovyx` is unstable because the ship carries two draconic inheritances in one hull.
+- `Paragon` carries two competing draconic souls, one calmer and one dangerously unstable.
 - The `Tattooed` are not one movement but a coalition of liberationists, avengers, and people exhausted by survival.
 - The new traders tied to `Thraxios` are trying to turn commerce itself into an argument for slavery.
 
@@ -183,6 +192,7 @@ This file captures reusable reveal material, pressure points, and scene hooks fo
 
 - Put liberated captives, contraband, or witness testimony in the party's path when taking action would threaten the city balance.
 - Make `Vaelessa`, `Oryndral`, or `Merovyx` demand something personal rather than transactional.
+- Let `Paragon` reach into the party's private fault lines before they ever make landfall.
 - Let merchants try to buy Jin's silence, Harlan's skills, or Marcel's charm.
 - Force the party to decide whether ending the slave trade matters more than preserving Vaelport's fragile peace.
 
@@ -192,6 +202,7 @@ This file captures reusable reveal material, pressure points, and scene hooks fo
 - A midnight escape scene through hidden `Tattooed` safehouses.
 - A merchant council where old blood and new money nearly come to violence.
 - An unnerving audience with `Merovyx` that begins lucid and ends with a different voice answering.
+- A dockside shouting match where an old-trader captain tells newer arrivals to berth with pirates and `Thraxios` scum.
 
 ## Vraegari
 

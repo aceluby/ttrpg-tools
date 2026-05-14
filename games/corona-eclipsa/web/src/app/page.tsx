@@ -1,13 +1,18 @@
 import { DocumentPanel } from "@/components/document-panel";
 import { EncounterPanelShell } from "@/components/encounter-panel-shell";
+import { FactionPanel } from "@/components/faction-panel";
 import { MusicPanel } from "@/components/music-panel";
+import { NpcRelationshipPanel } from "@/components/npc-relationship-panel";
 import { SidebarNav } from "@/components/sidebar-nav";
+import { SubsystemPanel } from "@/components/subsystem-panel";
 import { listGameDocs, readGameDoc } from "@/lib/game-files";
 
 type HomePageProps = {
   searchParams: Promise<{
     file?: string;
+    faction?: string;
     mode?: string;
+    npc?: string;
   }>;
 };
 
@@ -16,6 +21,12 @@ export default async function Home({ searchParams }: HomePageProps) {
   const params = await searchParams;
   const mode = params.mode === "encounter"
     ? "encounter"
+    : params.mode === "factions"
+      ? "factions"
+    : params.mode === "npcs"
+      ? "npcs"
+    : params.mode === "subsystems"
+      ? "subsystems"
     : params.mode === "music"
       ? "music"
       : "docs";
@@ -33,7 +44,7 @@ export default async function Home({ searchParams }: HomePageProps) {
           </h1>
         </div>
 
-        <div className="min-h-0 flex-1 overflow-y-auto pr-1">
+        <div className="min-h-0 flex-1 overflow-y-auto overscroll-contain pr-1">
           <SidebarNav
             docs={docs}
             selectedMode={mode}
@@ -46,6 +57,12 @@ export default async function Home({ searchParams }: HomePageProps) {
         <div className="flex min-h-0 flex-1 overflow-hidden">
           {mode === "encounter" ? (
             <EncounterPanelShell />
+          ) : mode === "factions" ? (
+            <FactionPanel initialSelectedFactionId={params.faction ?? ""} />
+          ) : mode === "npcs" ? (
+            <NpcRelationshipPanel initialSelectedNpcId={params.npc ?? ""} />
+          ) : mode === "subsystems" ? (
+            <SubsystemPanel />
           ) : mode === "music" ? (
             <MusicPanel />
           ) : selectedDoc ? (

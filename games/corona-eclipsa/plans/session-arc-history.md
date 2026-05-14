@@ -1,6 +1,6 @@
 # Session Arc History
 
-Last updated: 2026-03-13
+Last updated: 2026-05-10
 
 This file compresses the campaign into major arcs rather than session-by-session notes.
 
@@ -83,8 +83,8 @@ This file compresses the campaign into major arcs rather than session-by-session
 
 ## Arc 4: The Search For A Weapon
 
-- Current status:
-  - this is the current arc
+- Final status:
+  - this arc is complete
 - Core drive:
   - the party is looking for a weapon capable of fighting the `hollowed`
 - Start point:
@@ -108,10 +108,13 @@ This file compresses the campaign into major arcs rather than session-by-session
   - Marcel has already dreamed of this outcome
 - Planned climax:
   - `Dorian` will carve his own dragon to fight the wizards and bandits harrying the party
-- Open details:
-  - what happens inside the pocket dimension before escape
-  - who the wizards and bandits are at the arc climax
-  - what choice the party will make about the trapped wizard
+- Arc resolution:
+  - the party escaped the pocket-dimension crisis into a later, harsher world
+  - they passed through `Willow Woods` and learned the silver substance they had recovered was pure `weave`
+  - `Serel` was crowned in `Everthrone`
+  - `Marcel` bonded with a charming but dangerous artifact inhabited by an old wizard
+  - `Dax`'s dragon amulet awakened further and gained a limited flying form
+  - the session closed with the party boarding the `Liveship Paragon` for the voyage south
 
 ### Arc 4 Hidden Truth
 
@@ -128,6 +131,8 @@ This file compresses the campaign into major arcs rather than session-by-session
 
 ## Arc 5: The Search For Dax's Father
 
+- Current status:
+  - this is the current arc
 - Planned focus:
   - the party will search near `Vaelport` for Dax's father
 - Start trigger:
@@ -141,6 +146,10 @@ This file compresses the campaign into major arcs rather than session-by-session
   - the tunnel will lead to the first living dragon
 - Central uncertainty:
   - the party will need to determine whether that dragon is an ally or an antagonist
+- Early arc pressure:
+  - the voyage aboard `Paragon` will test the party emotionally before they even reach the city
+  - all four PCs have immediate `Vaelport` hooks waiting at the docks
+  - harbor tension between old traders and newer `Thraxios`-aligned interests is already rising
 - Open details:
   - who else is hunting Dax's father or the dragon
   - what Dax's father knows

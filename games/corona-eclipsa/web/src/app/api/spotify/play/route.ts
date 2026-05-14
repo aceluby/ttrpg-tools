@@ -35,7 +35,14 @@ type SpotifyDevicesResponse = {
 
 export async function POST(request: NextRequest) {
   const cookieStore = await cookies();
-  const body = await request.json() as { category?: string };
+  let body: { category?: string } = {};
+
+  try {
+    body = await request.json() as { category?: string };
+  } catch {
+    body = {};
+  }
+
   const scene = getSpotifyScene(body.category ?? "");
   if (!scene) {
     return NextResponse.json({ error: "Unknown music category" }, { status: 400 });
@@ -66,7 +73,9 @@ export async function POST(request: NextRequest) {
     }
 
     const trackCount = Math.max(playlist.tracks?.total ?? 1, 1);
-    const offset = Math.floor(Math.random() * trackCount);
+    const skipCount = trackCount > 1
+      ? Math.floor(Math.random() * Math.min(trackCount, 8))
+      : 0;
 
     await spotifyApiFetch<null>(cookieStore, "https://api.spotify.com/v1/me/player", {
       method: "PUT",
@@ -83,13 +92,20 @@ export async function POST(request: NextRequest) {
         method: "PUT",
         body: JSON.stringify({
           context_uri: playlist.uri,
-          offset: {
-            position: offset,
-          },
           position_ms: 0,
         }),
       },
     );
+
+    for (let index = 0; index < skipCount; index += 1) {
+      await spotifyApiFetch<null>(
+        cookieStore,
+        `https://api.spotify.com/v1/me/player/next?device_id=${encodeURIComponent(device.id)}`,
+        {
+          method: "POST",
+        },
+      );
+    }
 
     await spotifyApiFetch<null>(
       cookieStore,
@@ -103,7 +119,7 @@ export async function POST(request: NextRequest) {
       category: scene.label,
       deviceName: device.name,
       playlistName: playlist.name,
-      offset,
+      skipCount,
       shuffle: true,
     });
   } catch (error) {
@@ -150,6 +166,7 @@ async function findScenePlaylist(
 
   return null;
 }
+
 
 function pickPreferredDevice(devices: SpotifyDevicesResponse["devices"]) {
   return devices.find((device) => device.is_active && device.type === "Computer")

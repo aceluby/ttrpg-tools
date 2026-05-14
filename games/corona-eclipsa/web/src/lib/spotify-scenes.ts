@@ -41,8 +41,8 @@ export const SPOTIFY_SCENES: SpotifyScene[] = [
   {
     id: "talking",
     label: "Talking",
-    query: "DnD casual conversation music",
-    fallbackQueries: ["fantasy conversation ambience", "rpg city ambience"],
+    query: "dnd talking music",
+    fallbackQueries: ["fantasy conversation ambience", "dnd roleplay music", "rpg city ambience"],
   },
   {
     id: "tense",

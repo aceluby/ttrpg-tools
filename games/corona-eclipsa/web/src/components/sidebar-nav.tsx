@@ -14,7 +14,7 @@ type OutlineSection = {
 
 type SidebarNavProps = {
   docs: GameDoc[];
-  selectedMode: "docs" | "encounter" | "music";
+  selectedMode: "docs" | "encounter" | "music" | "subsystems" | "npcs" | "factions";
   selectedPath: string;
 };
 
@@ -190,8 +190,26 @@ export function SidebarNav({ docs, selectedMode, selectedPath }: SidebarNavProps
     });
   }
 
+  function selectNpcTracker() {
+    router.push("/?mode=npcs", {
+      scroll: false,
+    });
+  }
+
+  function selectFactionTracker() {
+    router.push("/?mode=factions", {
+      scroll: false,
+    });
+  }
+
   function selectMusic() {
     router.push("/?mode=music", {
+      scroll: false,
+    });
+  }
+
+  function selectSubsystems() {
+    router.push("/?mode=subsystems", {
       scroll: false,
     });
   }
@@ -241,6 +259,51 @@ export function SidebarNav({ docs, selectedMode, selectedPath }: SidebarNavProps
         <div className="space-y-2">
           <button
             className={`flex w-full items-center justify-between rounded-xl px-3 py-3 text-left transition ${
+              selectedMode === "factions"
+                ? "bg-amber-200 text-stone-950"
+                : "text-amber-100 hover:bg-amber-400/10"
+            }`}
+            onClick={selectFactionTracker}
+            type="button"
+          >
+            <div>
+              <span className="block text-sm font-medium">Faction Tracker</span>
+            </div>
+            <span className="text-base">⚑</span>
+          </button>
+
+          <button
+            className={`flex w-full items-center justify-between rounded-xl px-3 py-3 text-left transition ${
+              selectedMode === "npcs"
+                ? "bg-amber-200 text-stone-950"
+                : "text-amber-100 hover:bg-amber-400/10"
+            }`}
+            onClick={selectNpcTracker}
+            type="button"
+          >
+            <div>
+              <span className="block text-sm font-medium">NPC Tracker</span>
+            </div>
+            <span className="text-base">🗣</span>
+          </button>
+
+          <button
+            className={`flex w-full items-center justify-between rounded-xl px-3 py-3 text-left transition ${
+              selectedMode === "subsystems"
+                ? "bg-amber-200 text-stone-950"
+                : "text-amber-100 hover:bg-amber-400/10"
+            }`}
+            onClick={selectSubsystems}
+            type="button"
+          >
+            <div>
+              <span className="block text-sm font-medium">Subsystem Runner</span>
+            </div>
+            <span className="text-base">◎</span>
+          </button>
+
+          <button
+            className={`flex w-full items-center justify-between rounded-xl px-3 py-3 text-left transition ${
               selectedMode === "encounter"
                 ? "bg-amber-200 text-stone-950"
                 : "text-amber-100 hover:bg-amber-400/10"
@@ -251,6 +314,7 @@ export function SidebarNav({ docs, selectedMode, selectedPath }: SidebarNavProps
             <div>
               <span className="block text-sm font-medium">Encounter Runner</span>
             </div>
+            <span className="text-base">👤</span>
           </button>
 
           <button

@@ -204,7 +204,28 @@ export async function spotifyApiFetch<T>(
     return null as T;
   }
 
-  return response.json() as Promise<T>;
+  const rawBody = await response.text();
+  if (!rawBody) {
+    return null as T;
+  }
+
+  try {
+    return JSON.parse(rawBody) as T;
+  } catch (error) {
+    const method = (init?.method ?? "GET").toUpperCase();
+
+    // Playback-control endpoints can succeed with non-JSON or odd empty-ish bodies.
+    // For non-GET requests we don't rely on response payloads, so treat that as success.
+    if (method !== "GET") {
+      return null as T;
+    }
+
+    throw new Error(
+      `Spotify returned invalid JSON for ${method} ${input}: ${summarizeUnexpectedSpotifyBody(rawBody)}${
+        error instanceof Error ? ` (${error.message})` : ""
+      }`,
+    );
+  }
 }
 
 function extractSpotifyErrorMessage(rawMessage: string) {
@@ -235,6 +256,10 @@ function extractSpotifyErrorMessage(rawMessage: string) {
   }
 
   return rawMessage;
+}
+
+function summarizeUnexpectedSpotifyBody(rawBody: string) {
+  return rawBody.replace(/\s+/g, " ").trim().slice(0, 120);
 }
 
 export function persistSpotifyTokens(cookieStore: CookieStore, tokens: SpotifyTokenResponse) {
