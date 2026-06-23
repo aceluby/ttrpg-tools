@@ -1,0 +1,77 @@
+{
+  "combatUnits": [
+    "Vampire Lord",
+    "Blood Knights",
+    "Deathrattle Skeletons",
+    "Vargheists"
+  ],
+  "dataStatus": "Phase rules extracted into JSON for repeatable army onboarding",
+  "enhancements": [
+    {
+      "details": ["Once per battle in your movement phase: after a nearby unit uses Skeleton Legion, add 1 to each legion roll made for that unit."],
+      "name": "Grave-sand Shard",
+      "sourceLabel": "Official Bloodcrave Hunt PDF",
+      "sourceUrl": "https://assets.warhammer-community.com/eng_01-04_aos_spearhead_soulblight_gravelords_bloodcrave_hunt-vdg57qq6dt-h7hylvvtke.pdf"
+    },
+    {
+      "details": ["Passive summary: ignore negative modifiers to save rolls for shooting attacks that target your general."],
+      "name": "Aura of Night",
+      "sourceLabel": "Official Bloodcrave Hunt PDF",
+      "sourceUrl": "https://assets.warhammer-community.com/eng_01-04_aos_spearhead_soulblight_gravelords_bloodcrave_hunt-vdg57qq6dt-h7hylvvtke.pdf"
+    },
+    {
+      "details": ["Your hero phase summary: make a casting roll of 2D6; on a 7+, inflict 1 mortal damage on each enemy unit on the battlefield."],
+      "name": "Spirit Gale",
+      "sourceLabel": "Official Bloodcrave Hunt PDF",
+      "sourceUrl": "https://assets.warhammer-community.com/eng_01-04_aos_spearhead_soulblight_gravelords_bloodcrave_hunt-vdg57qq6dt-h7hylvvtke.pdf"
+    },
+    {
+      "details": ["Passive summary: after a friendly Vampire unit fights, heal it by the number of damage points it allocated with those attacks."],
+      "name": "The Hunger",
+      "sourceLabel": "Official Bloodcrave Hunt PDF",
+      "sourceUrl": "https://assets.warhammer-community.com/eng_01-04_aos_spearhead_soulblight_gravelords_bloodcrave_hunt-vdg57qq6dt-h7hylvvtke.pdf"
+    }
+  ],
+  "faction": "Soulblight Gravelords",
+  "id": "soulblight-gravelords-bloodcrave-hunt",
+  "localPdfPath": "/pdfs/spearhead-armies/bloodcrave-hunt.pdf",
+  "name": "Soulblight Gravelords: Bloodcrave Hunt",
+  "phaseRules": {
+    "charge": [],
+    "hero": [
+      {
+        "details": ["Vampire Lord spell. In your hero phase, resolve Vile Transference before moving on if you want the healing and damage swing."],
+        "id": "soulblight-vile-transference",
+        "sourceLabel": "Official Bloodcrave Hunt PDF",
+        "sourceUrl": "https://assets.warhammer-community.com/eng_01-04_aos_spearhead_soulblight_gravelords_bloodcrave_hunt-vdg57qq6dt-h7hylvvtke.pdf",
+        "title": "Vile Transference",
+        "unitName": "Vampire Lord"
+      }
+    ],
+    "movement": [],
+    "shooting": []
+  },
+  "regimentAbilities": [
+    {
+      "details": ["Once per battle in your movement phase: pick a destroyed friendly Deathrattle Skeletons unit and return a replacement unit with D6+4 models, set up anywhere more than 6 inches from enemy units."],
+      "name": "Endless Legions",
+      "sourceLabel": "Official Bloodcrave Hunt PDF",
+      "sourceUrl": "https://assets.warhammer-community.com/eng_01-04_aos_spearhead_soulblight_gravelords_bloodcrave_hunt-vdg57qq6dt-h7hylvvtke.pdf"
+    },
+    {
+      "details": ["Any charge phase summary: after your Blood Knights charge, they inflict D3 mortal damage on each enemy unit they passed across during that charge."],
+      "name": "Ruinous Chargers",
+      "sourceLabel": "Official Bloodcrave Hunt PDF",
+      "sourceUrl": "https://assets.warhammer-community.com/eng_01-04_aos_spearhead_soulblight_gravelords_bloodcrave_hunt-vdg57qq6dt-h7hylvvtke.pdf"
+    },
+    {
+      "details": ["Once per battle in your movement phase: your Vargheists can be set up anywhere on the battlefield more than 6 inches from enemy units."],
+      "name": "Swoop Down",
+      "sourceLabel": "Official Bloodcrave Hunt PDF",
+      "sourceUrl": "https://assets.warhammer-community.com/eng_01-04_aos_spearhead_soulblight_gravelords_bloodcrave_hunt-vdg57qq6dt-h7hylvvtke.pdf"
+    }
+  ],
+  "rulesPdfUrl": "https://assets.warhammer-community.com/eng_01-04_aos_spearhead_soulblight_gravelords_bloodcrave_hunt-vdg57qq6dt-h7hylvvtke.pdf",
+  "summary": "A predatory undead Spearhead built around pressure, speed, and recursion.",
+  "tags": ["undead", "pressure", "recursion"]
+}

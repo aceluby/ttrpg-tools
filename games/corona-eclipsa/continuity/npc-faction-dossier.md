@@ -1995,6 +1995,22 @@ This file captures recurring NPCs, factions, loyalties, and hidden motives.
 - Core motive:
   - keep `Althea Vestrin` alive, `Paragon` moving, and the ugly truth about his divided loyalties manageable
 
+## Mira Sable
+
+- Role:
+  - `Marcel`'s old fling in `Vaelport`
+- Public face:
+  - playful
+  - warm
+  - impossible to read cleanly when she wants something
+- Physical or behavioral trait:
+  - touches like she already knows how close she is allowed to stand and smiles as if every reunion is half challenge
+- Current pressure:
+  - tied up in debt and leverage around `The Salt Knives`
+  - capable of betraying `Marcel` while still not feeling simple or safe about it
+- Core motive:
+  - survive the city's pressure without giving up every last piece of herself
+
 ## House Kharvos
 
 - Role:

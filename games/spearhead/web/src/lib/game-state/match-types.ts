@@ -39,18 +39,24 @@ export type MatchPhase =
   | "game_over";
 
 export type PlayerTurnState = {
+  combatActivationByArmy: Record<MatchPlayerSlot, string[]>;
+  combatStepCompletion: {
+    normal: boolean;
+    strikeFirst: boolean;
+    strikeLast: boolean;
+  };
   completedPhases: TurnPhaseKey[];
   controlsAtLeastOneObjective: boolean;
   controlsMoreObjectives: boolean;
   controlsTwoOrMoreObjectives: boolean;
   completedBattleTactics: number;
-  phaseNotes: Partial<Record<TurnPhaseKey, string>>;
-  scoringNotes: string;
+  phaseChecklistCompletion: Partial<Record<"hero" | "movement" | "shooting" | "charge", string[]>>;
   totalVictoryPoints: number;
 };
 
 export type RoundState = {
   activePlayer: MatchPlayerSlot | "";
+  battleTacticCardStepComplete: Record<MatchPlayerSlot, boolean>;
   battleTacticNotes: Record<MatchPlayerSlot, string>;
   firstPlayer: MatchPlayerSlot | "";
   priorityWinner: MatchPlayerSlot | "";

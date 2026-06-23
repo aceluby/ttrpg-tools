@@ -1,0 +1,95 @@
+{
+  "combatUnits": [
+    "Bullstomper Mancrusher Gargant",
+    "Mancrusher Gargant 1",
+    "Mancrusher Gargant 2"
+  ],
+  "dataStatus": "Phase rules extracted into JSON for repeatable army onboarding",
+  "enhancements": [
+    {
+      "details": ["Passive summary: your general's Health becomes 15 instead of 12."],
+      "name": "Monstrously Tough",
+      "sourceLabel": "Official Sons of Behemat Spearhead PDF",
+      "sourceUrl": "https://assets.warhammer-community.com/eng_aos_spearhead_sons_of_behemat_wallsmasher_stomp-pixgkvvzk0-hh6q2dgl7y.pdf"
+    },
+    {
+      "details": ["Passive summary: your general can target 2 enemy units instead of 1 with Stuff 'Em In Me Bag."],
+      "name": "Extra-big Bag",
+      "sourceLabel": "Official Sons of Behemat Spearhead PDF",
+      "sourceUrl": "https://assets.warhammer-community.com/eng_aos_spearhead_sons_of_behemat_wallsmasher_stomp-pixgkvvzk0-hh6q2dgl7y.pdf"
+    },
+    {
+      "details": ["Passive summary: your general rolls 3D6 instead of 2D6 for charge rolls."],
+      "name": "Lanky Git",
+      "sourceLabel": "Official Sons of Behemat Spearhead PDF",
+      "sourceUrl": "https://assets.warhammer-community.com/eng_aos_spearhead_sons_of_behemat_wallsmasher_stomp-pixgkvvzk0-hh6q2dgl7y.pdf"
+    },
+    {
+      "details": ["Passive summary: add 1 to hit rolls for your general's attacks against enemy units contesting an objective you do not control."],
+      "name": "Furiously Territorial",
+      "sourceLabel": "Official Sons of Behemat Spearhead PDF",
+      "sourceUrl": "https://assets.warhammer-community.com/eng_aos_spearhead_sons_of_behemat_wallsmasher_stomp-pixgkvvzk0-hh6q2dgl7y.pdf"
+    }
+  ],
+  "faction": "Sons of Behemat",
+  "id": "sons-of-behemat-wallsmasher-stomp",
+  "localPdfPath": "/pdfs/spearhead-armies/wallsmasher-stomp.pdf",
+  "name": "Sons of Behemat: Wallsmasher Stomp",
+  "phaseRules": {
+    "charge": [],
+    "hero": [
+      {
+        "details": ["Bullstomper Mancrusher Gargant ability. In your hero phase, pick the friendly Mancrusher that gets the Throwin' Rocks boost this turn."],
+        "id": "sons-grab-those-rocks",
+        "sourceLabel": "Official Sons of Behemat Spearhead PDF",
+        "sourceUrl": "https://assets.warhammer-community.com/eng_aos_spearhead_sons_of_behemat_wallsmasher_stomp-pixgkvvzk0-hh6q2dgl7y.pdf",
+        "title": "Grab Those Rocks and Chuck 'Em!",
+        "unitName": "Bullstomper Mancrusher Gargant"
+      }
+    ],
+    "movement": [],
+    "shooting": [
+      {
+        "details": ["Resolve Throwin' Rocks if the Bullstomper Mancrusher Gargant is eligible to shoot."],
+        "id": "sons-bullstomper-throwin-rocks",
+        "sourceLabel": "Official Sons of Behemat Spearhead PDF",
+        "sourceUrl": "https://assets.warhammer-community.com/eng_aos_spearhead_sons_of_behemat_wallsmasher_stomp-pixgkvvzk0-hh6q2dgl7y.pdf",
+        "title": "Throwin' Rocks",
+        "unitName": "Bullstomper Mancrusher Gargant"
+      },
+      {
+        "details": ["Resolve Throwin' Rocks if this Mancrusher Gargant is eligible to shoot."],
+        "id": "sons-mancrusher-1-throwin-rocks",
+        "sourceLabel": "Official Sons of Behemat Spearhead PDF",
+        "sourceUrl": "https://assets.warhammer-community.com/eng_aos_spearhead_sons_of_behemat_wallsmasher_stomp-pixgkvvzk0-hh6q2dgl7y.pdf",
+        "title": "Throwin' Rocks",
+        "unitName": "Mancrusher Gargant 1"
+      },
+      {
+        "details": ["Resolve Throwin' Rocks if this Mancrusher Gargant is eligible to shoot."],
+        "id": "sons-mancrusher-2-throwin-rocks",
+        "sourceLabel": "Official Sons of Behemat Spearhead PDF",
+        "sourceUrl": "https://assets.warhammer-community.com/eng_aos_spearhead_sons_of_behemat_wallsmasher_stomp-pixgkvvzk0-hh6q2dgl7y.pdf",
+        "title": "Throwin' Rocks",
+        "unitName": "Mancrusher Gargant 2"
+      }
+    ]
+  },
+  "regimentAbilities": [
+    {
+      "details": ["Once per phase in any charge phase: for each enemy unit in combat with a friendly unit that charged, roll a die; on a 3+ that enemy unit has Strike-last this turn."],
+      "name": "Earth-shaking Charge",
+      "sourceLabel": "Official Sons of Behemat Spearhead PDF",
+      "sourceUrl": "https://assets.warhammer-community.com/eng_aos_spearhead_sons_of_behemat_wallsmasher_stomp-pixgkvvzk0-hh6q2dgl7y.pdf"
+    },
+    {
+      "details": ["Passive summary: each time Stuff 'Em In Me Bag slays an enemy model for a friendly unit, that unit heals D3."],
+      "name": "Foe-chompers",
+      "sourceLabel": "Official Sons of Behemat Spearhead PDF",
+      "sourceUrl": "https://assets.warhammer-community.com/eng_aos_spearhead_sons_of_behemat_wallsmasher_stomp-pixgkvvzk0-hh6q2dgl7y.pdf"
+    }
+  ],
+  "rulesPdfUrl": "https://assets.warhammer-community.com/eng_aos_spearhead_sons_of_behemat_wallsmasher_stomp-pixgkvvzk0-hh6q2dgl7y.pdf",
+  "summary": "Low-model-count giant force focused on brutal impact, presence, and objective bullying.",
+  "tags": ["monsters", "elite", "impact"]
+}

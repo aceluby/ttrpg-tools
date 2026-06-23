@@ -93,8 +93,23 @@ export function PreBattleRunner({
   }
 
   function completePreBattle() {
+    const attacker =
+      match.preBattleSetup.attacker === "army_a" || match.preBattleSetup.attacker === "army_b"
+        ? match.preBattleSetup.attacker
+        : "";
+
     onChange({
       ...match,
+      battleRounds: match.battleRounds.map((round) =>
+        round.roundNumber === 1
+          ? {
+              ...round,
+              activePlayer: attacker,
+              firstPlayer: attacker,
+              underdog: "",
+            }
+          : round,
+      ),
       currentPhase: "battle_round_start",
       currentRound: 1,
       preBattleSetup: {
@@ -310,7 +325,7 @@ export function PreBattleRunner({
           ) : null}
 
           {match.preBattleSetup.currentStepIndex === 4 ? (
-            <div className="grid gap-4 md:grid-cols-2">
+            <div>
               <div>
                 <p className="text-xs font-semibold uppercase tracking-[0.24em] text-muted">
                   Deployment map
@@ -325,33 +340,6 @@ export function PreBattleRunner({
                     isSelected={match.preBattleSetup.deploymentMap === "diagonal"}
                     label="Diagonal"
                     onClick={() => patchSetup({ deploymentMap: "diagonal" })}
-                  />
-                </div>
-              </div>
-              <div>
-                <p className="text-xs font-semibold uppercase tracking-[0.24em] text-muted">
-                  Defender territory
-                </p>
-                <div className="mt-3 grid gap-3">
-                  <ChoiceCard
-                    isSelected={match.preBattleSetup.territoryChoice === "north_west"}
-                    label="North-west"
-                    onClick={() => patchSetup({ territoryChoice: "north_west" })}
-                  />
-                  <ChoiceCard
-                    isSelected={match.preBattleSetup.territoryChoice === "south_east"}
-                    label="South-east"
-                    onClick={() => patchSetup({ territoryChoice: "south_east" })}
-                  />
-                  <ChoiceCard
-                    isSelected={match.preBattleSetup.territoryChoice === "north_east"}
-                    label="North-east"
-                    onClick={() => patchSetup({ territoryChoice: "north_east" })}
-                  />
-                  <ChoiceCard
-                    isSelected={match.preBattleSetup.territoryChoice === "south_west"}
-                    label="South-west"
-                    onClick={() => patchSetup({ territoryChoice: "south_west" })}
                   />
                 </div>
               </div>
@@ -403,12 +391,6 @@ export function PreBattleRunner({
               />
             </div>
           ) : null}
-
-          <TextArea
-            label="Setup notes"
-            onChange={(value) => patchSetup({ notes: value })}
-            value={match.preBattleSetup.notes}
-          />
         </div>
 
         <div className="mt-8 flex flex-wrap gap-3">
@@ -532,26 +514,5 @@ function SelectField({
         </button>
       </div>
     </div>
-  );
-}
-
-type TextAreaProps = {
-  label: string;
-  onChange: (value: string) => void;
-  value: string;
-};
-
-function TextArea({ label, onChange, value }: TextAreaProps) {
-  return (
-    <label className="flex flex-col gap-2">
-      <span className="text-xs font-semibold uppercase tracking-[0.24em] text-muted">
-        {label}
-      </span>
-      <textarea
-        className="min-h-28 rounded-2xl border border-line bg-black/10 px-4 py-3 text-sm leading-6 text-foreground outline-none transition focus:border-accent"
-        onChange={(event) => onChange(event.target.value)}
-        value={value}
-      />
-    </label>
   );
 }

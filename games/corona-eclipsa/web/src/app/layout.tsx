@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { DevLocalhostRedirect } from "@/components/dev-localhost-redirect";
 import { SoundboardProvider } from "@/components/soundboard-provider";
 import "./globals.css";
 
@@ -16,6 +17,7 @@ export default function RootLayout({
     <html lang="en" className="h-full antialiased">
       <body className="h-full overflow-hidden">
         <SoundboardProvider>
+          <DevLocalhostRedirect />
           <div className="flex h-full min-h-0 flex-col overflow-hidden">
             {children}
           </div>

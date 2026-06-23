@@ -1,4 +1,5 @@
 import type {
+  BattlefieldSide,
   MatchPlayerSlot,
   MatchRecord,
   PlayerTurnState,
@@ -41,7 +42,7 @@ export const phaseGuide: Record<
   end_of_turn: {
     actions: [
       "Score objectives and completed battle tactics.",
-      "Resolve end-of-turn abilities and cleanup notes.",
+      "Resolve end-of-turn abilities and cleanup effects.",
       "Confirm whether play passes to the other player or the next round.",
     ],
     title: "End of Turn",
@@ -85,6 +86,31 @@ export const phaseGuide: Record<
   },
 };
 
+export const twistOptionsByBattlefieldSide: Record<
+  Exclude<BattlefieldSide, "">,
+  { label: string; value: string }[]
+> = {
+  aqshy: [
+    { label: "Khorne Demands Blood", value: "Khorne Demands Blood" },
+    { label: "Let the Blood Flow", value: "Let the Blood Flow" },
+    { label: "Raging Inferno", value: "Raging Inferno" },
+    { label: "Wreathed in Smoke", value: "Wreathed in Smoke" },
+  ],
+  ghyran: [
+    { label: "Grasping Vines", value: "Grasping Vines" },
+    { label: "Take the Land", value: "Take the Land" },
+    { label: "The Grandfather's Blessing", value: "The Grandfather's Blessing" },
+  ],
+};
+
+export function getTwistOptionsForBattlefieldSide(side: BattlefieldSide) {
+  if (side === "") {
+    return [];
+  }
+
+  return twistOptionsByBattlefieldSide[side];
+}
+
 export function getRoundState(match: MatchRecord) {
   return match.battleRounds[match.currentRound - 1] ?? null;
 }
@@ -127,4 +153,51 @@ export function calculateMatchVictoryPoints(
     (total, round) => total + round.turnState[player].totalVictoryPoints,
     0,
   );
+}
+
+export function getScoreDifference(match: MatchRecord) {
+  const armyAScore = calculateMatchVictoryPoints(match, "army_a");
+  const armyBScore = calculateMatchVictoryPoints(match, "army_b");
+
+  return Math.abs(armyAScore - armyBScore);
+}
+
+export function didPlayerSeizeInitiative(match: MatchRecord) {
+  if (match.currentRound <= 1) {
+    return null;
+  }
+
+  const currentRound = getRoundState(match);
+  const previousRound = match.battleRounds.find(
+    (round) => round.roundNumber === match.currentRound - 1,
+  );
+
+  if (!currentRound || !previousRound) {
+    return null;
+  }
+
+  const previousFirstPlayer =
+    previousRound.firstPlayer === "army_a" || previousRound.firstPlayer === "army_b"
+      ? previousRound.firstPlayer
+      : null;
+  const currentPriorityWinner =
+    currentRound.priorityWinner === "army_a" || currentRound.priorityWinner === "army_b"
+      ? currentRound.priorityWinner
+      : null;
+  const currentFirstPlayer =
+    currentRound.firstPlayer === "army_a" || currentRound.firstPlayer === "army_b"
+      ? currentRound.firstPlayer
+      : null;
+
+  if (!previousFirstPlayer || !currentPriorityWinner || !currentFirstPlayer) {
+    return null;
+  }
+
+  const previousSecondPlayer = getOtherPlayer(previousFirstPlayer);
+
+  if (currentPriorityWinner === previousSecondPlayer && currentFirstPlayer === currentPriorityWinner) {
+    return currentPriorityWinner;
+  }
+
+  return null;
 }

@@ -1,0 +1,118 @@
+{
+  "combatUnits": [
+    "Clawlord on Gnaw-beast",
+    "Grey Seer",
+    "Warlock Engineer",
+    "Clanrats 1",
+    "Clanrats 2",
+    "Rat Ogors"
+  ],
+  "dataStatus": "Phase rules extracted into JSON for repeatable army onboarding",
+  "enhancements": [
+    {
+      "details": ["Passive summary: enemy units in combat with your general subtract 1 from save rolls."],
+      "name": "Warpstone Charm",
+      "sourceLabel": "Official Skaven Spearhead PDF",
+      "sourceUrl": "https://assets.warhammer-community.com/rules-downloads/age-of-sigmar/skaven-spearhead/eng_skaven_spearhead.pdf"
+    },
+    {
+      "details": ["Passive summary: your general's ranged weapon increases from D6 attacks to 2D6 attacks."],
+      "name": "Skryre Connections",
+      "sourceLabel": "Official Skaven Spearhead PDF",
+      "sourceUrl": "https://assets.warhammer-community.com/rules-downloads/age-of-sigmar/skaven-spearhead/eng_skaven_spearhead.pdf"
+    },
+    {
+      "details": ["Passive summary: your general gains Ward (5+)."],
+      "name": "Cloak of Stitched Victories",
+      "sourceLabel": "Official Skaven Spearhead PDF",
+      "sourceUrl": "https://assets.warhammer-community.com/rules-downloads/age-of-sigmar/skaven-spearhead/eng_skaven_spearhead.pdf"
+    },
+    {
+      "details": ["Reaction summary for Call for Reinforcements: instead of the normal setup instructions, the replacement unit can be set up wholly within 13 inches of this unit and not in combat."],
+      "name": "Lead the Seething Horde",
+      "sourceLabel": "Official Skaven Spearhead PDF",
+      "sourceUrl": "https://assets.warhammer-community.com/rules-downloads/age-of-sigmar/skaven-spearhead/eng_skaven_spearhead.pdf"
+    }
+  ],
+  "faction": "Skaven",
+  "id": "skaven-gnawfeast-clawpack",
+  "localPdfPath": "/pdfs/spearhead-armies/gnawfeast-clawpack.pdf",
+  "name": "Skaven: Gnawfeast Clawpack",
+  "phaseRules": {
+    "charge": [],
+    "hero": [
+      {
+        "details": ["Grey Seer spell. In your hero phase, cast this before moving on if you want the Gnaw-beast pressure tool online."],
+        "id": "skaven-will-of-the-horned-rat",
+        "sourceLabel": "Official Skaven Spearhead PDF",
+        "sourceUrl": "https://assets.warhammer-community.com/rules-downloads/age-of-sigmar/skaven-spearhead/eng_skaven_spearhead.pdf",
+        "title": "Will of the Horned Rat",
+        "unitName": "Grey Seer"
+      },
+      {
+        "details": ["Grey Seer spell. In your hero phase, cast this if you want the enemy unit debuffed before the rest of the turn."],
+        "id": "skaven-wither",
+        "sourceLabel": "Official Skaven Spearhead PDF",
+        "sourceUrl": "https://assets.warhammer-community.com/rules-downloads/age-of-sigmar/skaven-spearhead/eng_skaven_spearhead.pdf",
+        "title": "Wither",
+        "unitName": "Grey Seer"
+      }
+    ],
+    "movement": [
+      {
+        "details": [
+          "Battle trait. In your movement phase, pick a friendly unit that is in the tunnels below.",
+          "Set up that unit wholly within 6 inches of a corner of the battlefield and more than 9 inches from all enemy units.",
+          "Remember: units left in the tunnels below that have not used Gnawhole Ambush by the end of the third battle round are destroyed."
+        ],
+        "id": "skaven-gnawhole-ambush",
+        "sourceLabel": "Official Skaven Spearhead PDF",
+        "sourceUrl": "https://assets.warhammer-community.com/eng_01-04_aos_spearhead_skaven_gnawfeast_clawpack-zorddipson-dpnghi1nvc.pdf",
+        "title": "Gnawhole Ambush"
+      }
+    ],
+    "shooting": [
+      {
+        "details": ["Clawlord on Gnaw-beast ranged attack. Resolve Ratling Pistol here if the unit is eligible to shoot; it also has Shoot in Combat on the warscroll."],
+        "id": "skaven-ratling-pistol",
+        "sourceLabel": "Official Skaven Spearhead PDF",
+        "sourceUrl": "https://assets.warhammer-community.com/rules-downloads/age-of-sigmar/skaven-spearhead/eng_skaven_spearhead.pdf",
+        "title": "Ratling Pistol",
+        "unitName": "Clawlord on Gnaw-beast"
+      },
+      {
+        "details": ["Warlock Engineer ranged attack. This is one of the Skaven shooting units in Gnawfeast Clawpack."],
+        "id": "skaven-warplock-musket",
+        "sourceLabel": "Official Skaven Spearhead PDF",
+        "sourceUrl": "https://assets.warhammer-community.com/rules-downloads/age-of-sigmar/skaven-spearhead/eng_skaven_spearhead.pdf",
+        "title": "Warplock Musket",
+        "unitName": "Warlock Engineer"
+      },
+      {
+        "details": ["Rat Ogors ranged attack. Resolve their ranged shots if they did not run or retreat."],
+        "id": "skaven-rat-ogors-shoot",
+        "sourceLabel": "Official Skaven Spearhead PDF",
+        "sourceUrl": "https://assets.warhammer-community.com/rules-downloads/age-of-sigmar/skaven-spearhead/eng_skaven_spearhead.pdf",
+        "title": "Ranged attacks",
+        "unitName": "Rat Ogors"
+      }
+    ]
+  },
+  "regimentAbilities": [
+    {
+      "details": ["Your movement phase summary: pick a ranged weapon a friendly unit is armed with; that weapon gains Crit (Mortal) for the phase."],
+      "name": "Warpstone-laced Bullets",
+      "sourceLabel": "Official Skaven Spearhead PDF",
+      "sourceUrl": "https://assets.warhammer-community.com/rules-downloads/age-of-sigmar/skaven-spearhead/eng_skaven_spearhead.pdf"
+    },
+    {
+      "details": ["Passive summary: friendly units do not take retreat mortal damage when they retreat."],
+      "name": "Too Quick to Hit-hit",
+      "sourceLabel": "Official Skaven Spearhead PDF",
+      "sourceUrl": "https://assets.warhammer-community.com/rules-downloads/age-of-sigmar/skaven-spearhead/eng_skaven_spearhead.pdf"
+    }
+  ],
+  "rulesPdfUrl": "https://assets.warhammer-community.com/eng_01-04_aos_spearhead_skaven_gnawfeast_clawpack-zorddipson-dpnghi1nvc.pdf",
+  "summary": "Aggressive ratmen pressure list that leans on recursion, speed, and opportunistic ranged damage.",
+  "tags": ["aggressive", "swarm", "trickery"]
+}

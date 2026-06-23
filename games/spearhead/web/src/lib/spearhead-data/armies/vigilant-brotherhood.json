@@ -1,0 +1,95 @@
+{
+  "combatUnits": [
+    "Lord-Vigilant on Gryph-stalker",
+    "Lord-Veritant",
+    "Liberators",
+    "Prosecutors"
+  ],
+  "dataStatus": "Phase rules extracted into JSON for repeatable army onboarding",
+  "enhancements": [
+    {
+      "details": ["Passive summary: your general gains Ward (5+)."],
+      "name": "Hallowed Scrolls",
+      "sourceLabel": "Official Stormcast Eternals Spearhead PDF",
+      "sourceUrl": "https://assets.warhammer-community.com/rules-downloads/age-of-sigmar/stormcast-eternals-spearhead/eng_stormcast_eternals_spearhead.pdf"
+    },
+    {
+      "details": ["Passive summary: your general's Hallowed Greataxe gains Crit (Mortal)."],
+      "name": "Morrda's Talon",
+      "sourceLabel": "Official Stormcast Eternals Spearhead PDF",
+      "sourceUrl": "https://assets.warhammer-community.com/rules-downloads/age-of-sigmar/stormcast-eternals-spearhead/eng_stormcast_eternals_spearhead.pdf"
+    },
+    {
+      "details": ["Once per battle in any combat phase: your general gains Strike-first for that phase."],
+      "name": "Quicksilver Draught",
+      "sourceLabel": "Official Stormcast Eternals Spearhead PDF",
+      "sourceUrl": "https://assets.warhammer-community.com/rules-downloads/age-of-sigmar/stormcast-eternals-spearhead/eng_stormcast_eternals_spearhead.pdf"
+    },
+    {
+      "details": ["Once per battle at the end of any turn: roll for each enemy unit contesting the same objective as your general; on a 2+, reduce that unit's control score by the roll for the turn."],
+      "name": "Null Pendant",
+      "sourceLabel": "Official Stormcast Eternals Spearhead PDF",
+      "sourceUrl": "https://assets.warhammer-community.com/rules-downloads/age-of-sigmar/stormcast-eternals-spearhead/eng_stormcast_eternals_spearhead.pdf"
+    }
+  ],
+  "faction": "Stormcast Eternals",
+  "id": "stormcast-eternals-vigilant-brotherhood",
+  "localPdfPath": "/pdfs/spearhead-armies/vigilant-brotherhood.pdf",
+  "name": "Stormcast Eternals: Vigilant Brotherhood",
+  "phaseRules": {
+    "charge": [
+      {
+        "details": ["Once per battle in your charge phase, pick a friendly unit. That unit can use Charge abilities this turn even if it used a Run ability in the same turn."],
+        "id": "stormcast-storm-charge",
+        "sourceLabel": "Official Stormcast Eternals Spearhead PDF",
+        "sourceUrl": "https://assets.warhammer-community.com/eng_aos_spearhead_stormcast_eternals_dec_24-jyo1gqr2pm-0e3gf5ydzh.pdf",
+        "title": "Storm Charge"
+      }
+    ],
+    "hero": [
+      {
+        "details": ["Army ability. Current rules updates move this to your hero phase; use it once per turn before moving on."],
+        "id": "stormcast-shield-of-azyr",
+        "sourceLabel": "Official Stormcast Eternals rules updates PDF",
+        "sourceUrl": "https://assets.warhammer-community.com/warhammer40000_aos_rulesupdatesscrolls&blessedwargear_stormcasteternals_eng_16.04.pdf",
+        "title": "Shield of Azyr"
+      },
+      {
+        "details": ["Lord-Veritant ability. In your hero phase, pick a visible enemy unit within 12 inches and resolve the chanting roll for Cleansing Fires."],
+        "id": "stormcast-cleansing-fires",
+        "sourceLabel": "Official Stormcast Eternals Spearhead PDF",
+        "sourceUrl": "https://assets.warhammer-community.com/rules-downloads/age-of-sigmar/stormcast-eternals-spearhead/eng_stormcast_eternals_spearhead.pdf",
+        "title": "Cleansing Fires",
+        "unitName": "Lord-Veritant"
+      }
+    ],
+    "movement": [],
+    "shooting": [
+      {
+        "details": ["Prosecutors are the default ranged attackers in this Spearhead. Resolve their ranged attacks if they did not run or retreat."],
+        "id": "stormcast-prosecutors-shoot",
+        "sourceLabel": "Official Stormcast Eternals Spearhead PDF",
+        "sourceUrl": "https://assets.warhammer-community.com/rules-downloads/age-of-sigmar/stormcast-eternals-spearhead/eng_stormcast_eternals_spearhead.pdf",
+        "title": "Ranged attacks",
+        "unitName": "Prosecutors"
+      }
+    ]
+  },
+  "regimentAbilities": [
+    {
+      "details": ["Reaction summary: a unit that retreats avoids retreat mortal damage and can still charge later that turn."],
+      "name": "Strike Where Needed",
+      "sourceLabel": "Official Stormcast Eternals Spearhead PDF",
+      "sourceUrl": "https://assets.warhammer-community.com/rules-downloads/age-of-sigmar/stormcast-eternals-spearhead/eng_stormcast_eternals_spearhead.pdf"
+    },
+    {
+      "details": ["Once per battle in any combat phase: a chosen friendly unit deals vengeance-style mortal damage on a 4+ each time one of its models is slain that phase."],
+      "name": "Blaze of Glory",
+      "sourceLabel": "Official Stormcast Eternals Spearhead PDF",
+      "sourceUrl": "https://assets.warhammer-community.com/rules-downloads/age-of-sigmar/stormcast-eternals-spearhead/eng_stormcast_eternals_spearhead.pdf"
+    }
+  ],
+  "rulesPdfUrl": "https://assets.warhammer-community.com/eng_aos_spearhead_stormcast_eternals_dec_24-jyo1gqr2pm-0e3gf5ydzh.pdf",
+  "summary": "Elite armored warriors with reliable staying power and strong counter-pressure tools.",
+  "tags": ["elite", "durable", "counter-punch"]
+}

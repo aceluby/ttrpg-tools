@@ -27,7 +27,7 @@ function readMatches(): MatchRecord[] {
 
   try {
     const parsed = JSON.parse(rawValue) as MatchRecord[];
-    return Array.isArray(parsed) ? parsed : [];
+    return Array.isArray(parsed) ? parsed.map(normalizeMatchRecord) : [];
   } catch {
     return [];
   }
@@ -65,13 +65,21 @@ function createDefaultPreBattleSetup(): PreBattleSetup {
 
 function createDefaultTurnState() {
   return {
+    combatActivationByArmy: {
+      army_a: [],
+      army_b: [],
+    } as Record<MatchPlayerSlot, string[]>,
+    combatStepCompletion: {
+      normal: false,
+      strikeFirst: false,
+      strikeLast: false,
+    },
     completedPhases: [] as TurnPhaseKey[],
     completedBattleTactics: 0,
     controlsAtLeastOneObjective: false,
     controlsMoreObjectives: false,
     controlsTwoOrMoreObjectives: false,
-    phaseNotes: {},
-    scoringNotes: "",
+    phaseChecklistCompletion: {},
     totalVictoryPoints: 0,
   };
 }
@@ -79,6 +87,10 @@ function createDefaultTurnState() {
 function createDefaultRoundState(roundNumber: number): RoundState {
   return {
     activePlayer: "",
+    battleTacticCardStepComplete: {
+      army_a: false,
+      army_b: false,
+    } as Record<MatchPlayerSlot, boolean>,
     battleTacticNotes: {
       army_a: "",
       army_b: "",
@@ -94,6 +106,52 @@ function createDefaultRoundState(roundNumber: number): RoundState {
     } as Record<MatchPlayerSlot, ReturnType<typeof createDefaultTurnState>>,
     twistCard: "",
     underdog: "",
+  };
+}
+
+function normalizeTurnState(turnState: Partial<RoundState["turnState"][MatchPlayerSlot]> | undefined) {
+  return {
+    ...createDefaultTurnState(),
+    ...turnState,
+    combatActivationByArmy: {
+      ...createDefaultTurnState().combatActivationByArmy,
+      ...turnState?.combatActivationByArmy,
+    },
+    combatStepCompletion: {
+      ...createDefaultTurnState().combatStepCompletion,
+      ...turnState?.combatStepCompletion,
+    },
+    phaseChecklistCompletion: {
+      ...createDefaultTurnState().phaseChecklistCompletion,
+      ...turnState?.phaseChecklistCompletion,
+    },
+  };
+}
+
+function normalizeRoundState(round: Partial<RoundState> | undefined, roundNumber: number): RoundState {
+  const defaults = createDefaultRoundState(roundNumber);
+
+  return {
+    ...defaults,
+    ...round,
+    turnState: {
+      army_a: normalizeTurnState(round?.turnState?.army_a),
+      army_b: normalizeTurnState(round?.turnState?.army_b),
+    },
+  };
+}
+
+function normalizeMatchRecord(match: MatchRecord): MatchRecord {
+  return {
+    ...match,
+    battleRounds: [1, 2, 3, 4].map((roundNumber) => {
+      const sourceRound = match.battleRounds?.find((round) => round.roundNumber === roundNumber);
+      return normalizeRoundState(sourceRound, roundNumber);
+    }),
+    preBattleSetup: {
+      ...createDefaultPreBattleSetup(),
+      ...match.preBattleSetup,
+    },
   };
 }
 

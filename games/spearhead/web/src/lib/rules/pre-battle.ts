@@ -38,12 +38,10 @@ export const preBattleSteps: PreBattleStepDefinition[] = [
     title: "Choose battlefield side",
   },
   {
-    description: "The defender chooses the deployment map and which territory is theirs.",
+    description: "The defender chooses the deployment map.",
     id: "deployment-map",
-    isComplete: (match) =>
-      match.preBattleSetup.deploymentMap !== "" &&
-      match.preBattleSetup.territoryChoice !== "",
-    title: "Choose deployment map and territory",
+    isComplete: (match) => match.preBattleSetup.deploymentMap !== "",
+    title: "Choose deployment map",
   },
   {
     description: "Mark when the defender and then the attacker place their large and small terrain pieces.",

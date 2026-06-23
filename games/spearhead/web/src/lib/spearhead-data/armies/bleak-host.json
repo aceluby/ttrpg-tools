@@ -1,0 +1,86 @@
+{
+  "combatUnits": [
+    "Spoilpox Scrivener",
+    "Pusgoyle Blightlords",
+    "Putrid Blightkings",
+    "Plaguebearers"
+  ],
+  "dataStatus": "Phase rules extracted into JSON for repeatable army onboarding",
+  "enhancements": [
+    {
+      "details": ["Once per phase in your hero phase: pick a friendly unit and Heal (D3) it."],
+      "name": "Locus of Fecundity",
+      "sourceLabel": "Official Bleak Host PDF",
+      "sourceUrl": "https://assets.warhammer-community.com/eng_01-04_aos_spearhead_maggotkin_of_nurgle_bleak_host-anonar5akg-es9llpugle.pdf"
+    },
+    {
+      "details": ["Passive summary: when a friendly model is slain, you can pick an enemy unit within 1 inch; on a 4+, it takes 1 mortal damage."],
+      "name": "Infested with Wonders",
+      "sourceLabel": "Official Bleak Host PDF",
+      "sourceUrl": "https://assets.warhammer-community.com/eng_01-04_aos_spearhead_maggotkin_of_nurgle_bleak_host-anonar5akg-es9llpugle.pdf"
+    },
+    {
+      "details": ["Once per battle in any combat phase: pick an enemy unit within 7 inches of your general and roll for each model in it; each 5+ deals 1 mortal damage."],
+      "name": "Pestilent Breath",
+      "sourceLabel": "Official Bleak Host PDF",
+      "sourceUrl": "https://assets.warhammer-community.com/eng_01-04_aos_spearhead_maggotkin_of_nurgle_bleak_host-anonar5akg-es9llpugle.pdf"
+    },
+    {
+      "details": ["Your movement phase summary: pick a friendly Plaguebearers unit wholly within 14 inches of your general and return 1 slain model to it."],
+      "name": "Summoner of Plaguebearers",
+      "sourceLabel": "Official Bleak Host PDF",
+      "sourceUrl": "https://assets.warhammer-community.com/eng_01-04_aos_spearhead_maggotkin_of_nurgle_bleak_host-anonar5akg-es9llpugle.pdf"
+    }
+  ],
+  "faction": "Maggotkin of Nurgle",
+  "id": "maggotkin-of-nurgle-bleak-host",
+  "localPdfPath": "/pdfs/spearhead-armies/bleak-host.pdf",
+  "name": "Maggotkin of Nurgle: Bleak Host",
+  "phaseRules": {
+    "charge": [],
+    "hero": [
+      {
+        "details": ["Spoilpox Scrivener ability. In your hero phase, pick the unit to receive Keep Counting, I'm Watching You before moving on."],
+        "id": "nurgle-keep-counting",
+        "sourceLabel": "Official Maggotkin of Nurgle faction pack PDF",
+        "sourceUrl": "https://assets.warhammer-community.com/ageofsigmar_spearhead&factionpack_maggotkinofnurgle_eng_22.05.2025.pdf",
+        "title": "Keep Counting, I'm Watching You",
+        "unitName": "Spoilpox Scrivener"
+      }
+    ],
+    "movement": [],
+    "shooting": [
+      {
+        "details": ["Spoilpox Scrivener ranged attack. Resolve Disgusting Sneezes here if the unit is eligible to shoot."],
+        "id": "nurgle-disgusting-sneezes",
+        "sourceLabel": "Official Maggotkin of Nurgle faction pack PDF",
+        "sourceUrl": "https://assets.warhammer-community.com/ageofsigmar_spearhead&factionpack_maggotkinofnurgle_eng_22.05.2025.pdf",
+        "title": "Disgusting Sneezes",
+        "unitName": "Spoilpox Scrivener"
+      }
+    ]
+  },
+  "regimentAbilities": [
+    {
+      "details": ["Once per phase in your hero phase: while friendly units are wholly within 7 inches of your general, add 1 to the Attacks characteristic of their melee weapons until end of phase."],
+      "name": "Gift of Febrile Frenzy",
+      "sourceLabel": "Official Bleak Host PDF",
+      "sourceUrl": "https://assets.warhammer-community.com/eng_01-04_aos_spearhead_maggotkin_of_nurgle_bleak_host-anonar5akg-es9llpugle.pdf"
+    },
+    {
+      "details": ["Passive summary: if your general is contesting an uncontested objective, roll a die; on a 3+, it becomes desecrated and your friendly units get Ward (4+) while contesting it until the opponent takes control."],
+      "name": "Gardener of Nurgle",
+      "sourceLabel": "Official Bleak Host PDF",
+      "sourceUrl": "https://assets.warhammer-community.com/eng_01-04_aos_spearhead_maggotkin_of_nurgle_bleak_host-anonar5akg-es9llpugle.pdf"
+    },
+    {
+      "details": ["Your movement phase summary: spend any number of disease points; for each point spent, pick an enemy unit in combat with one of your units and roll a die, dealing 1 mortal damage on a 4+."],
+      "name": "Nurgle's Embrace",
+      "sourceLabel": "Official Bleak Host PDF",
+      "sourceUrl": "https://assets.warhammer-community.com/eng_01-04_aos_spearhead_maggotkin_of_nurgle_bleak_host-anonar5akg-es9llpugle.pdf"
+    }
+  ],
+  "rulesPdfUrl": "https://assets.warhammer-community.com/eng_01-04_aos_spearhead_maggotkin_of_nurgle_bleak_host-anonar5akg-es9llpugle.pdf",
+  "summary": "A grinding, disease-forward force built to absorb punishment and outlast key fights.",
+  "tags": ["durable", "attrition", "board control"]
+}

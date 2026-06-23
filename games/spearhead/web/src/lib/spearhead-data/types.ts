@@ -33,13 +33,31 @@ export type ArmyDefinition = {
   units: UnitDefinition[];
 };
 
+export type PhaseRule = {
+  details: string[];
+  id: string;
+  sourceLabel?: string;
+  sourceUrl?: string;
+  title: string;
+  unitName?: string;
+};
+
 export type ArmySummary = {
+  combatUnits: string[];
   dataStatus: string;
   enhancements: RuleOption[];
   faction: string;
   id: string;
+  localPdfPath: string;
   name: string;
+  phaseRules: {
+    charge: PhaseRule[];
+    hero: PhaseRule[];
+    movement: PhaseRule[];
+    shooting: PhaseRule[];
+  };
   regimentAbilities: RuleOption[];
+  rulesPdfUrl: string;
   summary: string;
   tags: string[];
 };
